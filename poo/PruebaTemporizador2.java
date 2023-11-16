@@ -41,4 +41,8 @@ class Reloj {
         mi_temporizador.start();
     }
 
+    private class DameLaHora2 implements ActionListener {
+        
+    }
+
 }
