@@ -35,23 +35,23 @@ class Reloj {
 
     public void enMarcha() {
 
+        class DameLaHora2 implements ActionListener {
+
+            public void actionPerformed(ActionEvent evento) {
+
+                Date ahora = new Date();
+
+                System.out.println("Te pongo la hora cada 3 segundos | " + ahora);
+
+                if(sonido) {
+                    Toolkit.getDefaultToolkit().beep();
+                }
+            }
+        }
+
         ActionListener oyente = new DameLaHora2();
         Timer mi_temporizador = new Timer(intervalo, oyente);
 
         mi_temporizador.start();
-    }
-
-    private class DameLaHora2 implements ActionListener {   // Las clases internas son útiles para entrar al código encapsulado a la que quieres que solo él entre
-
-        public void actionPerformed(ActionEvent evento) {
-
-            Date ahora = new Date();
-
-            System.out.println("Te pongo la hora cada 3 segundos | " + ahora);
-
-            if(sonido) {
-                Toolkit.getDefaultToolkit().beep();
-            }
-        }
     }
 }
