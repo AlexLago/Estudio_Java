@@ -16,6 +16,9 @@ class Reloj {
 
     public Reloj(int intervalo, boolean sonido) {
 
+        this.intervalo = intervalo;
+        this.sonido = sonido;
+        
     }
 
 }
