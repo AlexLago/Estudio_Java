@@ -11,8 +11,11 @@ public class PruebaTemporizador2 {
 
 class Reloj {
 
+    private int intervalo;
+    private boolean sonido;
+
     public Reloj(int intervalo, boolean sonido) {
-        
+
     }
 
 }
