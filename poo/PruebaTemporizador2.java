@@ -10,7 +10,7 @@ public class PruebaTemporizador2 {
     
     public static void main(String[] args) {
 
-
+        Reloj mi_reloj = new Reloj(3000, true);
         
     }
 }
