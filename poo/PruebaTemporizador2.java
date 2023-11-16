@@ -42,7 +42,11 @@ class Reloj {
     }
 
     private class DameLaHora2 implements ActionListener {
-        
+
+        Date ahora = new Date();
+
+        System.out.println("Te pongo la hora cada 3 segundos | " + ahora);
+
     }
 
 }
