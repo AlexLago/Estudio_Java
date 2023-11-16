@@ -13,6 +13,10 @@ public class PruebaTemporizador2 {
         Reloj mi_reloj = new Reloj(3000, true);
 
         mi_reloj.enMarcha();
+
+        JOptionPane.showMessageDialog(null, "Pulsa Aceptar para terminar.");
+
+        System.exit(0);
         
     }
 }
