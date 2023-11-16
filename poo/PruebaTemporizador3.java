@@ -35,7 +35,7 @@ class Reloj {
 
     public void enMarcha(int intervalo, boolean sonido) {
 
-        class DameLaHora2 implements ActionListener {
+        class DameLaHora2 implements ActionListener {   // Al ser una clase dentro de un método este queda mucho mas encapsulado de lo normal
 
             public void actionPerformed(ActionEvent evento) {
 
