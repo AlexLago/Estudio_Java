@@ -52,10 +52,6 @@ class Reloj {
             if(sonido) {
                 Toolkit.getDefaultToolkit().beep();
             }
-
         }
-        
-
     }
-
 }
