@@ -1,7 +1,10 @@
 package poo;
 
-import java.awt.event.ActionListener;
-import java.util.Timer;
+import javax.swing.Timer;
+import javax.swing.*;
+import java.awt.event.*;
+import java.util.*;
+import java.awt.Toolkit;
 
 public class PruebaTemporizador2 {
     
