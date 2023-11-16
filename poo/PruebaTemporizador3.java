@@ -23,15 +23,15 @@ public class PruebaTemporizador3 {
 
 class Reloj {
 
-    //private int intervalo;
-    //private boolean sonido;
+    /*private int intervalo;
+    private boolean sonido;
 
     public Reloj(int intervalo, boolean sonido) {
 
         this.intervalo = intervalo;
         this.sonido = sonido;
 
-    }
+    }*/
 
     public void enMarcha(int intervalo, boolean sonido) {
 
