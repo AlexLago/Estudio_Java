@@ -1,5 +1,8 @@
 package poo;
 
+import java.awt.event.ActionListener;
+import java.util.Timer;
+
 public class PruebaTemporizador2 {
     
     public static void main(String[] args) {
@@ -18,7 +21,15 @@ class Reloj {
 
         this.intervalo = intervalo;
         this.sonido = sonido;
-        
+
+    }
+
+    public void enMarcha() {
+
+        ActionListener oyente = new DameLaHora2();
+        Timer mi_temporizador = new Timer(intervalo, oyente);
+
+        mi_temporizador.start();
     }
 
 }
