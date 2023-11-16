@@ -49,6 +49,10 @@ class Reloj {
 
             System.out.println("Te pongo la hora cada 3 segundos | " + ahora);
 
+            if(sonido) {
+                Toolkit.getDefaultToolkit().beep();
+            }
+
         }
         
 
