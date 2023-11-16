@@ -23,8 +23,8 @@ public class PruebaTemporizador3 {
 
 class Reloj {
 
-    private int intervalo;
-    private boolean sonido;
+    //private int intervalo;
+    //private boolean sonido;
 
     public Reloj(int intervalo, boolean sonido) {
 
@@ -33,7 +33,7 @@ class Reloj {
 
     }
 
-    public void enMarcha() {
+    public void enMarcha(int intervalo, boolean sonido) {
 
         class DameLaHora2 implements ActionListener {
 
