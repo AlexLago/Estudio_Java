@@ -41,7 +41,7 @@ class Reloj {
         mi_temporizador.start();
     }
 
-    private class DameLaHora2 implements ActionListener {
+    private class DameLaHora2 implements ActionListener {   // Las clases internas son útiles para entrar al código encapsulado a la que quieres que solo él entre
 
         public void actionPerformed(ActionEvent evento) {
 
