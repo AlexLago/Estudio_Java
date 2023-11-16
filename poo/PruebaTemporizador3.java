@@ -10,9 +10,9 @@ public class PruebaTemporizador3 {
     
     public static void main(String[] args) {
 
-        Reloj mi_reloj = new Reloj(3000, true);
+        Reloj mi_reloj = new Reloj();
 
-        mi_reloj.enMarcha();
+        mi_reloj.enMarcha(3000, true);
 
         JOptionPane.showMessageDialog(null, "Pulsa Aceptar para terminar.");
 
