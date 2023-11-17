@@ -1,6 +1,7 @@
 package graficos;
 
-import javax.swing.JFrame;
+import java.awt.Toolkit;
+import javax.swing.*;
 
 public class MarcoCentrado {
     
@@ -15,7 +16,7 @@ class CreandoMarcoCentrado extends JFrame {
 
 public CreandoMarcoCentrado() {
 
-    
+    Toolkit mi_pantalla = Toolkit.getDefaultToolkit();
 
 }
 
