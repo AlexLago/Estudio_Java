@@ -8,6 +8,8 @@ public class CreandoMarcos {
 
         miMarco marco1 = new miMarco();
 
+        marco1.setVisible(true);
+
     }
 }
 
