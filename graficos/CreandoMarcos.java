@@ -13,6 +13,10 @@ public class CreandoMarcos {
 
 class miMarco extends JFrame{
 
+    public miMarco() {
 
+        
+
+    }
 
 }
