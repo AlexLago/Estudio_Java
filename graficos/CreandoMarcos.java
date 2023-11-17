@@ -19,6 +19,7 @@ class miMarco extends JFrame{
         //setLocation(500, 300);
         setBounds(500, 300, 250, 250);
         setVisible(true);
+        setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
