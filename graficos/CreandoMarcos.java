@@ -1,5 +1,7 @@
 package graficos;
 
+import java.awt.Frame;
+
 import javax.swing.*;
 
 public class CreandoMarcos {    // Prueba simple con JFrames
@@ -19,7 +21,8 @@ class miMarco extends JFrame{
         //setLocation(500, 300);
         setBounds(500, 300, 250, 250);
         setVisible(true);
-        setResizable(false);
+        //setResizable(false);
+        setExtendedState(Frame.MAXIMIZED_BOTH);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
