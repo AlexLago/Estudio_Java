@@ -15,7 +15,7 @@ class miMarco extends JFrame{
 
     public miMarco() {
 
-        
+        setSize(500, 300);
 
     }
 
