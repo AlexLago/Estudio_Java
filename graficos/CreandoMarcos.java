@@ -2,7 +2,7 @@ package graficos;
 
 import javax.swing.*;
 
-public class CreandoMarcos {
+public class CreandoMarcos {    // Prueba simple con JFrames
     
     public static void main(String[] args) {
 
@@ -15,9 +15,9 @@ class miMarco extends JFrame{
 
     public miMarco() {
 
-        setSize(500, 300);
+        setSize(500, 300); 
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
 
+    }
 }
