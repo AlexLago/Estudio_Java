@@ -17,7 +17,10 @@ class MarcoConTexto extends JFrame {
 
     public MarcoConTexto() {
 
-        
+        setVisible(true);
+        setSize(600, 450);
+        setLocation(400, 200);
+        setTitle("Título");
 
     }
 
