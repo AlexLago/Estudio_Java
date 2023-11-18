@@ -30,6 +30,10 @@ class MarcoConTexto extends JFrame {
 
 class Lamina extends JPanel {
 
-    
+    public void paintComponent(Graphics grafico) {
+        
+        
+
+    }
 
 }
