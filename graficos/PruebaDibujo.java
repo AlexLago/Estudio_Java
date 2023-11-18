@@ -9,6 +9,9 @@ public class PruebaDibujo {
         
         MarcoConDibujos mi_marco = new MarcoConDibujos();
 
+        mi_marco.setVisible(true);
+        mi_marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     }
 
 }
