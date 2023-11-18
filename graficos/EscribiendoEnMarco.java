@@ -15,6 +15,10 @@ public class EscribiendoEnMarco {
 
 class MarcoConTexto extends JFrame {
 
-    
+    public MarcoConTexto() {
+
+        
+
+    }
 
 }
