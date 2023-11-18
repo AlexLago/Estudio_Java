@@ -26,6 +26,8 @@ class MarcoConTexto extends JFrame {
 
         Lamina mi_lamina = new Lamina();
 
+        add(mi_lamina);
+
     }
 
 }
