@@ -7,8 +7,14 @@ public class EscribiendoEnMarco {
 
     public static void main(String[] args) {
         
-        
+
 
     }
     
+}
+
+class MarcoConTexto extends JFrame {
+
+    
+
 }
