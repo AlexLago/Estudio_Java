@@ -26,3 +26,9 @@ class MarcoConDibujos extends JFrame {
     }
 
 }
+
+class LaminaConFiguras extends JPanel {
+
+
+
+}
