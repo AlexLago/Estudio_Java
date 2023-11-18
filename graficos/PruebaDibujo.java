@@ -26,7 +26,7 @@ class MarcoConDibujos extends JFrame {
         LaminaConFiguras mi_lamina = new LaminaConFiguras();
 
         add(mi_lamina);
-        
+
     }
 
 }
@@ -37,7 +37,7 @@ class LaminaConFiguras extends JPanel {
 
         super.paintComponent(g);
 
-        g.drawRect(50, 50, 200, 200);
+        g.drawRect(50, 50, 200, 200); // No es una línea. Es un rectángulo
 
     }
 
