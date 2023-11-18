@@ -15,6 +15,10 @@ public class PruebaDibujo {
 
 class MarcoConDibujos extends JFrame {
 
-    
+    public MarcoConDibujos() {
+
+        
+
+    }
 
 }
