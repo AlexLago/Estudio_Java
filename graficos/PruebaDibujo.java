@@ -29,6 +29,10 @@ class MarcoConDibujos extends JFrame {
 
 class LaminaConFiguras extends JPanel {
 
+    public void paintComponent(Graphics g) {
 
+        
+
+    }
 
 }
