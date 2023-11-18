@@ -32,7 +32,7 @@ class Lamina extends JPanel {
 
     public void paintComponent(Graphics grafico) {
         
-        
+        grafico.drawString("Aprendiendo Swing", 100, 100);
 
     }
 
