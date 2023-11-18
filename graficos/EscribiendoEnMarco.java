@@ -5,6 +5,10 @@ import java.awt.*;
 
 public class EscribiendoEnMarco {
 
+    public static void main(String[] args) {
+        
+        
 
+    }
     
 }
