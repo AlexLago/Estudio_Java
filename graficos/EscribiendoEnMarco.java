@@ -28,11 +28,11 @@ class MarcoConTexto extends JFrame {
 
 }
 
-class Lamina extends JPanel { 
+class Lamina extends JPanel { //JPanel hereda de JComponent
 
     public void paintComponent(Graphics grafico) {
 
-        super.paintComponent(grafico);
+        super.paintComponent(grafico);  // Invocamos al padre en JComponent para que haga su trabajo ademas de lo que está en nuestro código
         
         grafico.drawString("Aprendiendo Swing", 100, 100);
 
