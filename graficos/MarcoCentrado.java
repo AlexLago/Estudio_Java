@@ -19,6 +19,10 @@ public CreandoMarcoCentrado() {
 
     Toolkit mi_pantalla = Toolkit.getDefaultToolkit();
     Dimension tamano_pantalla = mi_pantalla.getScreenSize();
+
+    int altura_pantalla = tamano_pantalla.height;
+    int ancho_pantalla = tamano_pantalla.width;
+
 }
 
 }
