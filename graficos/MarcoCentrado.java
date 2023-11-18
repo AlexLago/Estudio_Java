@@ -8,7 +8,10 @@ public class MarcoCentrado {
     
     public static void main(String[] args) {
         
+        CreandoMarcoCentrado mi_marco = new CreandoMarcoCentrado();
 
+        mi_marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mi_marco.setVisible(true);
 
     }
 }
