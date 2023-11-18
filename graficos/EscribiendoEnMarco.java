@@ -24,6 +24,8 @@ class MarcoConTexto extends JFrame {
         setLocation(400, 200);
         setTitle("Título");
 
+        Lamina mi_lamina = new Lamina();
+
     }
 
 }
