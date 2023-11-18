@@ -33,6 +33,8 @@ class CreandoMarcoCentrado extends JFrame {
 
         Image mi_icono = mi_pantalla.getImage("icono.gif");
 
+        setIconImage(mi_icono);
+
     }
 
 }
