@@ -33,6 +33,8 @@ class LaminaConFiguras extends JPanel {
 
         super.paintComponent(g);
 
+        g.drawRect(50, 50, 200, 200);
+
     }
 
 }
