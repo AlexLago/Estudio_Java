@@ -23,6 +23,9 @@ public CreandoMarcoCentrado() {
     int altura_pantalla = tamano_pantalla.height;
     int ancho_pantalla = tamano_pantalla.width;
 
+    setSize(ancho_pantalla/2, altura_pantalla/2);
+    setLocation(ancho_pantalla/4 , altura_pantalla/4);
+
 }
 
 }
