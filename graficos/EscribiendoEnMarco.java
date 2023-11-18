@@ -7,7 +7,7 @@ public class EscribiendoEnMarco {
 
     public static void main(String[] args) {
         
-
+        MarcoConTexto mi_marco = new MarcoConTexto();
 
     }
     
