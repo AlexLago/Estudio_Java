@@ -9,6 +9,8 @@ public class EscribiendoEnMarco {
         
         MarcoConTexto mi_marco = new MarcoConTexto();
 
+        mi_marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     }
     
 }
