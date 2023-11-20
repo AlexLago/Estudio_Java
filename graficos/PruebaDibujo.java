@@ -58,6 +58,13 @@ class LaminaConFiguras extends JPanel {
 
         double centro_en_x = rectangulo.getCenterX();
         double centro_en_y = rectangulo.getCenterY();
+        double radio = 150;
+
+        Ellipse2D circulo = new Ellipse2D.Double();
+
+        circulo.setFrame(centro_en_x, centro_en_y, centro_en_x + radio, centro_en_y + radio);
+
+        g2.draw(circulo);
 
     }
 
