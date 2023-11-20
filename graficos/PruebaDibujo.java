@@ -2,6 +2,7 @@ package graficos;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.geom.*;
 
 public class PruebaDibujo {
     
@@ -42,6 +43,10 @@ class LaminaConFiguras extends JPanel {
         g.drawArc(50, 50, 200, 200, 100, 150);*/
 
         Graphics2D g2 = (Graphics2D) g;
+
+        Rectangle2D rectangulo = new Rectangle2D.Double(100, 100, 200, 150 ) {
+            
+        };
 
     }
 
