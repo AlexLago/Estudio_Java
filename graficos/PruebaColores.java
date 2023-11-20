@@ -28,6 +28,8 @@ class MarcoConColor extends JFrame {
 
         add(mi_lamina);
 
+        mi_lamina.setBackground(Color.BLACK);
+
     }
 
 }
