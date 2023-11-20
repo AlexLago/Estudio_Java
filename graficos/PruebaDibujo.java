@@ -37,9 +37,9 @@ class LaminaConFiguras extends JPanel {
 
         super.paintComponent(g);
 
-        g.drawRect(50, 50, 200, 200); // No es una línea. Es un rectángulo
+        /*g.drawRect(50, 50, 200, 200); // No es una línea. Es un rectángulo
         g.drawLine(50, 50, 250, 250); // Esto sí que es una línea recta
-        g.drawArc(50, 50, 200, 200, 100, 150);
+        g.drawArc(50, 50, 200, 200, 100, 150);*/
 
     }
 
