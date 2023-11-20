@@ -41,6 +41,8 @@ class LaminaConFiguras extends JPanel {
         g.drawLine(50, 50, 250, 250); // Esto sí que es una línea recta
         g.drawArc(50, 50, 200, 200, 100, 150);*/
 
+        Graphics2D g2 = (Graphics2D) g;
+
     }
 
 }
