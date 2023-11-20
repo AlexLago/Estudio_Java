@@ -50,6 +50,8 @@ class LaminaConFiguras extends JPanel {
 
         Ellipse2D elipse = new Ellipse2D.Double();
 
+        elipse.setFrame(rectangulo);
+
     }
 
 }
