@@ -10,6 +10,9 @@ public class PruebaColores {
 
         MarcoConColor mi_marco = new MarcoConColor();
 
+        mi_marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mi_marco.setVisible(true);
+
     }
 
 }
