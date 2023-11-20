@@ -27,6 +27,10 @@ class MarcoConColor extends JFrame {
 
 class LaminaConColor extends JPanel {
 
-    
-    
+    public void paintComponent(Graphics g) {
+
+        super.paintComponent(g);
+
+    }
+
 }
