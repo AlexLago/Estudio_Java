@@ -8,7 +8,7 @@ public class PruebaColores {
     
     public static void main(String[] args) {
 
-
+        MarcoConColor mi_marco = new MarcoConColor();
 
     }
 
