@@ -42,9 +42,10 @@ class LaminaConColor extends JPanel {
 
         Rectangle2D rectangulo = new Rectangle2D.Double(100, 100, 200, 150);
 
+        g2.setPaint(Color.BLUE);
+        g2.draw(rectangulo);
         g2.setPaint(Color.RED);
         g2.fill(rectangulo);
-        //g2.draw(rectangulo);
 
         Ellipse2D elipse = new Ellipse2D.Double();
 
@@ -53,7 +54,7 @@ class LaminaConColor extends JPanel {
         //g2.setPaint(Color.BLACK);
         g2.setPaint(new Color(0,140,255).brighter());
         g2.fill(elipse);
-        //g2.draw(elipse);
+        g2.draw(elipse);
 
     }
 
