@@ -21,6 +21,10 @@ class MarcoConColor extends JFrame {
         setTitle("Prueba con colores");
         setSize(400, 400);
 
+        LaminaConColor mi_lamina = new LaminaConColor();
+
+        add(mi_lamina);
+
     }
 
 }
