@@ -51,7 +51,7 @@ class LaminaConColor extends JPanel {
         elipse.setFrame(rectangulo);
 
         //g2.setPaint(Color.BLACK);
-        g2.setPaint(new Color(0,140,255));
+        g2.setPaint(new Color(0,140,255).brighter());
         g2.fill(elipse);
         //g2.draw(elipse);
 
