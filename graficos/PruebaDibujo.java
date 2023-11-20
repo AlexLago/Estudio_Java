@@ -52,6 +52,8 @@ class LaminaConFiguras extends JPanel {
 
         elipse.setFrame(rectangulo);
 
+        g2.draw(elipse);
+
     }
 
 }
