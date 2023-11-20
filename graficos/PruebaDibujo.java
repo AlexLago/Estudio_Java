@@ -56,6 +56,9 @@ class LaminaConFiguras extends JPanel {
 
         g2.draw(new Line2D.Double(100, 100, 300, 250));
 
+        double centro_en_x = rectangulo.getCenterX();
+        double centro_en_y = rectangulo.getCenterY();
+
     }
 
 }
