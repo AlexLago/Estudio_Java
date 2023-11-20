@@ -54,7 +54,7 @@ class LaminaConFiguras extends JPanel {
 
         g2.draw(elipse);
 
-        g2.draw(new Line2D.Double(100, 100, 300, 300));
+        g2.draw(new Line2D.Double(100, 100, 300, 250));
 
     }
 
