@@ -8,8 +8,14 @@ public class PruebaColores {
     
     public static void main(String[] args) {
 
-        
+
 
     }
+
+}
+
+class MarcoConColor extends JFrame {
+
+    
 
 }
