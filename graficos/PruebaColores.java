@@ -8,7 +8,7 @@ public class PruebaColores {
     
     public static void main(String[] args) {
 
-
+        
 
     }
 
@@ -16,6 +16,11 @@ public class PruebaColores {
 
 class MarcoConColor extends JFrame {
 
-    
+    public MarcoConColor() {
+
+        setTitle("Prueba con colores");
+        setSize(400, 400);
+
+    }
 
 }
