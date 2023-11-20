@@ -6,4 +6,10 @@ import javax.swing.*;
 
 public class PruebaColores {
     
+    public static void main(String[] args) {
+
+        
+
+    }
+
 }
