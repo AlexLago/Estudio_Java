@@ -11,9 +11,9 @@ public class ComprobarFuentes {
         String [] nombres_fuentes = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
         boolean presencia_fuente = false;
 
-        for (String nombre : nombres_fuentes) {
+        for (String nombres : nombres_fuentes) {
             
-            if (nombres_fuentes.equals(fuente)) {
+            if (nombres.equals(fuente)) {
                 presencia_fuente = true;
             }
         }
