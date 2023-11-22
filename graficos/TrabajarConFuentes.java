@@ -38,6 +38,9 @@ class LaminaConFuentes extends JPanel {
         super.paintComponent(g);
 
         Graphics2D g2 = (Graphics2D) g;
+        Font mi_fuente = new Font("Arial", Font.BOLD, 26);
+
+        g2.setFont(mi_fuente);
 
     }
 
