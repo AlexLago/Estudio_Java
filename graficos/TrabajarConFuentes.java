@@ -22,7 +22,11 @@ class MarcoConFuentes extends JFrame {
 
         setTitle("Prueba con Fuentes");
         setSize(400,400);
-        
+
+        LaminaConFuentes mi_lamina = new LaminaConFuentes();
+
+        add(mi_lamina);
+
     }
 
 }
