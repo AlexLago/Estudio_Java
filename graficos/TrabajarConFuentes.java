@@ -7,7 +7,10 @@ public class TrabajarConFuentes {
     
     public static void main(String[] args) {
         
-        
+        MarcoConFuentes mi_marco = new MarcoConFuentes();
+
+        mi_marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mi_marco.setVisible(true);
 
     }
 
