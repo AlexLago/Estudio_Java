@@ -27,6 +27,8 @@ class MarcoConFuentes extends JFrame {
 
         add(mi_lamina);
 
+        mi_lamina.setForeground(Color.BLUE);
+
     }
 
 }
