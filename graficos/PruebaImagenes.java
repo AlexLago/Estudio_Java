@@ -34,7 +34,7 @@ class MarcoImagen extends JFrame {
 
 }
 
-class LaminaConImagen extends JTable {
+class LaminaConImagen extends JPanel {
 
     private Image imagen;
 
