@@ -24,7 +24,7 @@ class MarcoImagen extends JFrame {
     public MarcoImagen() {
 
         setTitle("Marco con Imagen");
-        setBounds(750,300,300,200);
+        setBounds(500,50,900,900);
 
         LaminaConImagen mi_lamina = new LaminaConImagen();
 
@@ -41,7 +41,7 @@ class LaminaConImagen extends JPanel {
     public void paintComponent(Graphics g) {
 
         super.paintComponent(g);
-        File mi_imagen = new File("src/graficos/material/imagen.png");
+        File mi_imagen = new File("Estudio_Java\\src\\graficos\\material\\imagen.png");
 
         try {
             imagen = ImageIO.read(mi_imagen);
