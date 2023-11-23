@@ -18,8 +18,15 @@ class MarcoImagen extends JFrame {
 
     public MarcoImagen() {
 
-        
+        setTitle("Marco con Imagen");
+        setBounds(750,300,300,200);
 
     }
+
+}
+
+class LaminaConImagen extends JTable {
+
+    
 
 }
