@@ -41,7 +41,7 @@ class LaminaConImagen extends JTable {
     public void paintComponent(Graphics g) {
 
         super.paintComponent(g);
-        File mi_imagen = new File("src/graficos/Archivos/imagen.png");
+        File mi_imagen = new File("src/graficos/material/imagen.png");
 
         try {
             imagen = ImageIO.read(mi_imagen);
