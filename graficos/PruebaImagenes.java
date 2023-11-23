@@ -41,7 +41,6 @@ class LaminaConImagen extends JTable {
     public void paintComponent(Graphics g) {
 
         super.paintComponent(g);
-        Graphics2D g2 = (Graphics2D) g;
         File mi_imagen = new File("src/graficos/Archivos/imagen.png");
 
         try {
@@ -49,6 +48,8 @@ class LaminaConImagen extends JTable {
         } catch (IOException e) {
             System.out.println("No se ha hallado la imagen deseada");
         }
+
+        g.drawImage(imagen, 5, 5, null);
 
     }
 
