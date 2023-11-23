@@ -7,8 +7,10 @@ public class PruebaImagenes {
     
     public static void main(String[] args) {
         
-
+        MarcoImagen mi_marco = new MarcoImagen();
         
+        mi_marco.setVisible(true);
+        mi_marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
@@ -24,7 +26,7 @@ class MarcoImagen extends JFrame {
         LaminaConImagen mi_lamina = new LaminaConImagen();
 
         add(mi_lamina);
-        
+
     }
 
 }
