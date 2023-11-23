@@ -2,6 +2,8 @@ package graficos;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.*;
+
 import javax.imageio.*;
 
 public class PruebaImagenes {
@@ -40,6 +42,13 @@ class LaminaConImagen extends JTable {
 
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
+        File mi_imagen = new File("src/graficos/Archivos/imagen.png");
+
+        try {
+            imagen = ImageIO.read(mi_imagen);
+        } catch (IOException e) {
+            System.out.println("No se ha hallado la imagen deseada");
+        }
 
     }
 
