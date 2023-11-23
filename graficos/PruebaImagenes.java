@@ -21,6 +21,10 @@ class MarcoImagen extends JFrame {
         setTitle("Marco con Imagen");
         setBounds(750,300,300,200);
 
+        LaminaConImagen mi_lamina = new LaminaConImagen();
+
+        add(mi_lamina);
+        
     }
 
 }
