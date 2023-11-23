@@ -13,3 +13,13 @@ public class PruebaImagenes {
     }
 
 }
+
+class MarcoImagen extends JFrame {
+
+    public MarcoImagen() {
+
+        
+
+    }
+
+}
