@@ -2,6 +2,7 @@ package graficos;
 
 import javax.swing.*;
 import java.awt.*;
+import javax.imageio.*;
 
 public class PruebaImagenes {
     
@@ -32,6 +33,8 @@ class MarcoImagen extends JFrame {
 }
 
 class LaminaConImagen extends JTable {
+
+    private Image imagen;
 
     public void paintComponent(Graphics g) {
 
