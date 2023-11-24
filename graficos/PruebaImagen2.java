@@ -38,21 +38,19 @@ class Lamina extends JPanel {
 
     private Image imagen;
 
-    @Override
-    protected void paintComponent(Graphics g) {
-
-        super.paintComponent(g);
-
-        File direccion = new File("Estudio_Java\\src\\graficos\\material\\imagen.gif"); 
-
+    public Lamina() {
         try {
-            imagen = ImageIO.read(direccion);
+            // Carga la imagen desde el recurso del proyecto
+            imagen = ImageIO.read(getClass().getResource("/graficos/material/imagen.gif"));
         } catch (IOException e) {
             System.out.println("No se ha encontrado la imagen");
         }
+    }
 
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
         g.drawImage(imagen, 0, 0, null);
-
     }
 
 }
