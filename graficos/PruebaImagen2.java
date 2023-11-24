@@ -41,7 +41,7 @@ class Lamina extends JPanel {
     public Lamina() {
         try {
             // Carga la imagen desde el recurso del proyecto
-            imagen = ImageIO.read(getClass().getResource("/graficos/material/imagen.gif"));
+            imagen = ImageIO.read(getClass().getResource("/graficos/material/imagen.gif")); // Repasar esta estructura
         } catch (IOException e) {
             System.out.println("No se ha encontrado la imagen");
         }
