@@ -34,7 +34,7 @@ class Frame extends JFrame {
 
 }
 
-class Lamina extends JTable {
+class Lamina extends JPanel {
 
     private Image imagen;
 
