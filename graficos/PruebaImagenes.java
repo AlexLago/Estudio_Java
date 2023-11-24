@@ -41,7 +41,7 @@ class LaminaConImagen extends JPanel {
     public void paintComponent(Graphics g) {
 
         super.paintComponent(g);
-        File mi_imagen = new File("Estudio_Java\\src\\graficos\\material\\imagen.png");
+        File mi_imagen = new File("Estudio_Java\\src\\graficos\\material\\imagen.gif");
 
         try {
             imagen = ImageIO.read(mi_imagen);

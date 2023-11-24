@@ -22,6 +22,9 @@ class Frame extends JFrame {
         setTitle("Prueba Imagen");
         setBounds(200, 300, 300, 300);
 
+        Lamina lamina = new Lamina();
+
+        add(lamina);
     }
 
 }
