@@ -5,6 +5,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 
+// Un error extraño succede que al ejecutar este programa ocurren cosas anomalas, en cambio. Cuando uso la version original no ocurre ningun problema. Parece ser problema del IDE
+
 public class PruebaImagen2 {
     
     public static void main(String[] args) {
@@ -41,7 +43,7 @@ class Lamina extends JTable {
 
         super.paintComponent(g);
 
-        File direccion = new File("Estudio_Java\\src\\graficos\\material\\imagen.gif");
+        File direccion = new File("Estudio_Java\\src\\graficos\\material\\imagen.gif"); 
 
         try {
             imagen = ImageIO.read(direccion);
