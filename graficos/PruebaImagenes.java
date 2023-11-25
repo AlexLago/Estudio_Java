@@ -52,6 +52,9 @@ class LaminaConImagen extends JPanel {
 
         super.paintComponent(g);
         
+        int width = imagen.getWidth(this);
+        int height = imagen.getHeight(this);
+
         g.drawImage(imagen, 0, 0, null);
 
         for(int i=0; i<300;i++) {
