@@ -56,28 +56,12 @@ class LaminaBotones extends JPanel implements ActionListener{
 
         Object botonPulsado = e.getSource();
 
-        switch (botonPulsado.getClass().getName()) {
-            
-            case "botonAzul":
-                
-                setBackground(Color.BLUE);
-
-                break;
-        
-            case "botonAmarillo":
-
-                setBackground(Color.YELLOW);
-
-                break;
-
-            case "botonRojo":
-
-                setBackground(Color.RED);
-
-                break;
-
-            default:
-                break;
+        if(botonPulsado == botonAzul) {
+            setBackground(Color.BLUE);
+        } else if(botonPulsado == botonAmarillo) {
+            setBackground(Color.YELLOW);
+        } else if(botonPulsado == botonRojo) {
+            setBackground(Color.RED);
         }
     }
 
