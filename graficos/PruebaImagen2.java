@@ -27,18 +27,18 @@ class Frame extends JFrame {
         setTitle("Prueba Imagen");
         setBounds(200, 300, 300, 300);
 
-        Lamina lamina = new Lamina();
+        Lamina2 lamina = new Lamina2();
 
         add(lamina);
     }
 
 }
 
-class Lamina extends JPanel {
+class Lamina2 extends JPanel {
 
     private Image imagen;
 
-    public Lamina() {
+    public Lamina2() {
         try {
             // Carga la imagen desde el recurso del proyecto
             imagen = ImageIO.read(getClass().getResource("/graficos/material/imagen.gif")); // Repasar esta estructura
