@@ -48,8 +48,8 @@ class LaminaBotones extends JPanel implements ActionListener{
 
     public void actionPerformed(ActionEvent e) {
 
+        setBackground(Color.BLUE);
 
-        
     }
 
 }
