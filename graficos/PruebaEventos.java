@@ -7,7 +7,10 @@ public class PruebaEventos {
     
     public static void main(String[] args) {
         
-        
+        MarcoBotones mimarco = new MarcoBotones();
+
+        mimarco.setVisible(true);
+        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
