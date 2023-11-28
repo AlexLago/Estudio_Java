@@ -1,6 +1,8 @@
 package graficos;
 
 import java.awt.*;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
 public class PruebaEventos {
@@ -31,13 +33,15 @@ class MarcoBotones extends JFrame{
 
 }
 
-class LaminaBotones extends JPanel{
+class LaminaBotones extends JPanel implements ActionListener{
 
     JButton botonAzul = new JButton("Azul");
 
     public LaminaBotones() {
 
         add(botonAzul);
+
+        botonAzul.addActionListener(this);
 
     }
 
