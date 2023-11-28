@@ -26,3 +26,9 @@ class MarcoBotones extends JFrame{
     }
 
 }
+
+class LaminaBotones extends JPanel{
+
+
+
+}
