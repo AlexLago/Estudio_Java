@@ -8,7 +8,7 @@ public class CreandoMarcos {    // Prueba simple con JFrames
     
     public static void main(String[] args) {
 
-        miMarco marco1 = new miMarco();
+        miMarco marco = new miMarco();
 
     }
 }
