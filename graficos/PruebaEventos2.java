@@ -56,38 +56,15 @@ class LaminaBotones extends JPanel{
 
     private class ColorFondo implements ActionListener{
 
-    private Color c;
+        private Color c;
 
-    public ColorFondo(Color c) {
+        public ColorFondo(Color c) {
+            this.c = c;
+        }
 
-        this.c = c;
-
-    }
-
-    public void actionPerformed(ActionEvent e) {
-
-        setBackground(c);
+        public void actionPerformed(ActionEvent e) {
+            setBackground(c);
+        }
 
     }
-
-}
-
-}
-
-class ColorFondo implements ActionListener{
-
-    private Color c;
-
-    public ColorFondo(Color c) {
-
-        this.c = c;
-
-    }
-
-    public void actionPerformed(ActionEvent e) {
-
-        setBackground(c);
-
-    }
-
 }
