@@ -46,11 +46,10 @@ class LaminaBotones extends JPanel{
         add(botonAmarillo);
         add(botonRojo);
 
-        ColorFondo color;
 
-        botonAzul.addActionListener(color = new ColorFondo(Color.BLUE));
-        botonAmarillo.addActionListener(color = new ColorFondo(Color.YELLOW));
-        botonRojo.addActionListener(color = new ColorFondo(Color.RED));
+        botonAzul.addActionListener(new ColorFondo(Color.BLUE));
+        botonAmarillo.addActionListener(new ColorFondo(Color.YELLOW));
+        botonRojo.addActionListener(new ColorFondo(Color.RED));
 
     }
 
