@@ -10,7 +10,7 @@ public class PruebaTemporizador3 {
     
     public static void main(String[] args) {
 
-        Reloj mi_reloj = new Reloj();
+        Reloj2 mi_reloj = new Reloj2();
 
         mi_reloj.enMarcha(3000, true);
 
@@ -21,7 +21,7 @@ public class PruebaTemporizador3 {
     }
 }
 
-class Reloj {
+class Reloj2 {
 
     /*private int intervalo;
     private boolean sonido;
