@@ -37,18 +37,26 @@ class MarcoBotones extends JFrame{
 class LaminaBotones extends JPanel implements ActionListener{
 
     JButton botonAzul = new JButton("Azul");
+    JButton botonAmarillo = new JButton("Amarillo");
+    JButton botonRojo = new JButton("Rojo");
 
     public LaminaBotones() {
 
         add(botonAzul);
+        add(botonAmarillo);
+        add(botonRojo);
 
         botonAzul.addActionListener(this);
+        botonAmarillo.addActionListener(this);
+        botonRojo.addActionListener(this);
 
     }
 
     public void actionPerformed(ActionEvent e) {
 
-        setBackground(Color.BLUE);
+        botonAzul.setBackground(Color.BLUE);
+        botonAmarillo.setBackground(Color.YELLOW);
+        botonRojo.setBackground(Color.RED);
 
     }
 
