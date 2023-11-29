@@ -8,6 +8,7 @@ public class CreandoMarcos {    // Prueba simple con JFrames
     
     public static void main(String[] args) {
 
+        @SuppressWarnings("unused")
         miMarco marco = new miMarco();
 
     }
