@@ -26,3 +26,9 @@ class MarcoVentana extends JFrame{
     }
 
 }
+
+class M_Ventana implements WindowListener{
+
+    
+
+}
