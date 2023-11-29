@@ -12,3 +12,9 @@ public class EventosVentana {
     }
 
 }
+
+class MarcoVentana extends JFrame{
+
+    
+
+}
