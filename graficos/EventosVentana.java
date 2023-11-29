@@ -34,27 +34,23 @@ class MarcoVentana extends JFrame{
 class M_Ventana implements WindowListener{
 
     public void windowActivated(WindowEvent e){
-
         System.out.println("FOR THE EMPEROOOOOOOOOOOR!!!");
-
     }
 
     public void windowClosed(WindowEvent e){}
 
     public void windowClosing(WindowEvent e){
-
         System.out.println("Sangre para el dios de la sangre");
-
     }
 
-    public void windowDeactivated(WindowEvent e){}
+    public void windowDeactivated(WindowEvent e){
+        System.out.println("Ventana desactivada");
+    }
 
     public void windowDeiconified(WindowEvent e){}
 
     public void windowIconified(WindowEvent e){
-
         System.out.println("Ventana minimi... nimini... MINIMIZADA!!!");
-
     }
 
     public void windowOpened(WindowEvent e){}
