@@ -39,7 +39,11 @@ class M_Ventana implements WindowListener{
 
     public void windowDeiconified(WindowEvent e){}
 
-    public void windowIconified(WindowEvent e){}
+    public void windowIconified(WindowEvent e){
+
+        System.out.println("Ventana minimi... nimini... MINIMIZADA!!!");
+
+    }
 
     public void windowOpened(WindowEvent e){}
 
