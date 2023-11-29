@@ -7,8 +7,8 @@ public class EventosVentana {
     
     public static void main(String[] args) {
         
-        MarcoVentana frameVentana = new MarcoVentana();
-        MarcoVentana frameVentana2 = new MarcoVentana();
+        MarcoVentana frameVentana = new MarcoVentana("Ventana 1", 300, 300, 500, 350);
+        MarcoVentana frameVentana2 = new MarcoVentana("Ventana 2", 800, 150, 600, 500);
 
         frameVentana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frameVentana2.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -19,10 +19,19 @@ public class EventosVentana {
 
 class MarcoVentana extends JFrame{
 
-    public MarcoVentana() {
+    private String titulo;
+    private int x, y, width, height; 
 
-        setTitle("Respondiendo");
-        setBounds(300, 300, 500, 350);
+    public MarcoVentana(String titulo, int x, int y, int width, int height) {
+
+        this.titulo = titulo;
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+
+        setTitle(titulo);
+        setBounds(x, y, width, height);
         setVisible(true);
 
         M_Ventana oyenteVentana = new M_Ventana();
