@@ -90,7 +90,7 @@ public class UsoEmpleado {
     
 }
 
-class Empleado implements Comparable, Trabajadores{
+class Empleado implements Comparable<Object>, Trabajadores{
 
     public double setBonus(double gratificacion) {
         return Trabajadores.bonus_base + gratificacion;
