@@ -9,29 +9,33 @@ public class PruebaEventos2 {
     
     public static void main(String[] args) {
         
-        MarcoBotones2 mimarco = new MarcoBotones2();
+        JFrame mimarco2 = new JFrame("Botones y Eventos");
 
-        mimarco.setVisible(true);
-        mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mimarco2.setBounds(700, 300, 500, 300);
+        mimarco2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        LaminaBotones2 lamina2 = new LaminaBotones2();
 
+        mimarco2.add(lamina2);
+        mimarco2.setVisible(true);
     }
 
 }
 
-class MarcoBotones2 extends JFrame{
+/*class MarcoBotones2 extends JFrame{
 
     public MarcoBotones2() {
 
         setTitle("Botones y Eventos");
         setBounds(700, 300, 500, 300);
 
-        LaminaBotones milamina = new LaminaBotones();
+        LaminaBotones2 lamina2 = new LaminaBotones2();
 
-        add(milamina);
+        add(lamina2);
 
     }
 
-}
+}*/
 
 class LaminaBotones2 extends JPanel{
 
