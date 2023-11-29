@@ -25,9 +25,9 @@ class MarcoVentana extends JFrame{
         setBounds(x, y, width, height);
         setVisible(true);
 
-        M_Ventana oyenteVentana = new M_Ventana();
+        //M_Ventana oyenteVentana = new M_Ventana();
 
-        addWindowListener(oyenteVentana);
+        addWindowListener(new M_Ventana());
 
     }
 
