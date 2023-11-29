@@ -25,23 +25,23 @@ class Frame extends JFrame {
     public Frame() {
 
         setTitle("Prueba Imagen");
-        setBounds(200, 300, 300, 300);
+        setBounds(500, 50, 900, 900);
 
-        Lamina2 lamina = new Lamina2();
+        LaminaImagen lamina = new LaminaImagen();
 
         add(lamina);
     }
 
 }
 
-class Lamina2 extends JPanel {
+class LaminaImagen extends JPanel {
 
     private Image imagen;
 
-    public Lamina2() {
+    public LaminaImagen() {
         try {
             // Carga la imagen desde el recurso del proyecto
-            imagen = ImageIO.read(getClass().getResource("/graficos/material/imagen.gif")); // Repasar esta estructura
+            imagen = ImageIO.read(getClass().getResource("/graficos/material/imagen.png")); // Repasar esta estructura
         } catch (IOException e) {
             System.out.println("No se ha encontrado la imagen");
         }
