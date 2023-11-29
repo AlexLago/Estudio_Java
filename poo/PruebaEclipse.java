@@ -6,7 +6,7 @@ public class PruebaEclipse {
 		
 		System.out.println("Prueba de repositorios con Eclipse");
 		System.out.print("Prueba de repositorios con Eclipse número 2");
-		System.out.print("Prueba de repositorios con Eclipse número 3");
+		System.out.print("Prueba de repositorios con Eclipse número 4");
 
 	}
 
