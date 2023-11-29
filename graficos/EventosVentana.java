@@ -19,16 +19,16 @@ public class EventosVentana {
 
 class MarcoVentana extends JFrame{
 
-    private String titulo;
-    private int x, y, width, height; 
+    /*private String titulo;
+    private int x, y, width, height;*/
 
     public MarcoVentana(String titulo, int x, int y, int width, int height) {
 
-        this.titulo = titulo;
+        /*this.titulo = titulo;
         this.x = x;
         this.y = y;
         this.width = width;
-        this.height = height;
+        this.height = height;*/
 
         setTitle(titulo);
         setBounds(x, y, width, height);
