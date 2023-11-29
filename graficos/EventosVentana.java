@@ -47,12 +47,16 @@ class M_Ventana implements WindowListener{
         System.out.println("Ventana desactivada");
     }
 
-    public void windowDeiconified(WindowEvent e){}
+    public void windowDeiconified(WindowEvent e){
+        System.out.println("Ventana restaurada");
+    }
 
     public void windowIconified(WindowEvent e){
         System.out.println("Ventana minimi... nimini... MINIMIZADA!!!");
     }
 
-    public void windowOpened(WindowEvent e){}
+    public void windowOpened(WindowEvent e){
+        System.out.println("Ehh, hola");
+    }
 
 }
