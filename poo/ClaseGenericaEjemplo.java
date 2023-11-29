@@ -4,7 +4,7 @@ public class ClaseGenericaEjemplo {
     
     public static void main(String[] args) {
 
-        ListaEnlazada<Integer> listaEnteros = new ListaEnlazada();
+        ListaEnlazada<Integer> listaEnteros = new ListaEnlazada<>();
 
         listaEnteros.agregar(1);
         listaEnteros.agregar(2);
