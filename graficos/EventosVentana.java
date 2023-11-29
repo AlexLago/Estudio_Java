@@ -8,8 +8,10 @@ public class EventosVentana {
     public static void main(String[] args) {
         
         MarcoVentana frameVentana = new MarcoVentana();
+        MarcoVentana frameVentana2 = new MarcoVentana();
 
         frameVentana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frameVentana2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
