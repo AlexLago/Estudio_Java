@@ -41,7 +41,11 @@ class M_Ventana implements WindowListener{
 
     public void windowClosed(WindowEvent e){}
 
-    public void windowClosing(WindowEvent e){}
+    public void windowClosing(WindowEvent e){
+
+        System.out.println("Sangre para el dios de la sangre");
+
+    }
 
     public void windowDeactivated(WindowEvent e){}
 
