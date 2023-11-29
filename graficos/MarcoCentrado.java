@@ -1,7 +1,7 @@
 package graficos;
 
 import java.awt.Dimension;
-//import java.awt.Image;
+import java.awt.Image;
 import java.awt.Toolkit;
 import javax.swing.*;
 
@@ -31,9 +31,9 @@ class CreandoMarcoCentrado extends JFrame {
         setLocation(ancho_pantalla/4 , altura_pantalla/4);
         setTitle("MarcoCentrado");
 
-        //Image mi_icono = mi_pantalla.getImage("icono.gif");
+        Image mi_icono = mi_pantalla.getImage(getClass().getResource("/graficos/material/imagen.gif"));
 
-        //setIconImage(mi_icono);
+        setIconImage(mi_icono);
 
     }
 
