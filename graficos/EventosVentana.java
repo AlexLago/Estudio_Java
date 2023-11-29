@@ -33,9 +33,9 @@ class MarcoVentana extends JFrame{
 
 }
 
-class M_Ventana implements WindowListener{
+class M_Ventana extends WindowAdapter /*implements WindowListener*/{
 
-    public void windowActivated(WindowEvent e){
+    /*public void windowActivated(WindowEvent e){
         System.out.println("FOR THE EMPEROOOOOOOOOOOR!!!");
     }
 
@@ -57,7 +57,7 @@ class M_Ventana implements WindowListener{
 
     public void windowIconified(WindowEvent e){
         System.out.println("Ventana minimi... nimini... MINIMIZADA!!!");
-    }
+    }*/
 
     public void windowOpened(WindowEvent e){
         System.out.println("Ehh, hola");
