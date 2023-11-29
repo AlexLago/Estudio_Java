@@ -1,8 +1,7 @@
 package graficos;
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 import javax.swing.*;
 
@@ -45,7 +44,6 @@ class LaminaBotones2 extends JPanel{
         add(botonAzul);
         add(botonAmarillo);
         add(botonRojo);
-
 
         botonAzul.addActionListener(new ColorFondo(Color.BLUE));
         botonAmarillo.addActionListener(new ColorFondo(Color.YELLOW));
