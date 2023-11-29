@@ -15,6 +15,12 @@ public class EventosVentana {
 
 class MarcoVentana extends JFrame{
 
-    
+    public MarcoVentana() {
+
+        setTitle("Respondiendo");
+        setBounds(300, 300, 500, 350);
+        setVisible(true);
+
+    }
 
 }
