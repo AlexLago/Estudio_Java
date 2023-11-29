@@ -11,7 +11,7 @@ public class EventosVentana {
         MarcoVentana frameVentana2 = new MarcoVentana();
 
         frameVentana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frameVentana2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frameVentana2.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
     }
 
