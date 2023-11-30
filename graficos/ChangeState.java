@@ -26,8 +26,12 @@ class StateFrame extends JFrame {
 
 }
 
-class ChangeState implements WindowStateListener {
+class StateListener implements WindowStateListener {
 
+    public void windowStateChanged(WindowEvent e) {
+
+
+
+    }
     
-
 }
