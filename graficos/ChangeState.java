@@ -5,4 +5,10 @@ import javax.swing.*;
 
 public class ChangeState {
     
+    public static void main(String[] args) {
+
+        
+
+    }
+
 }
