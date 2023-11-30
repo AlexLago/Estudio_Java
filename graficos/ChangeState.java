@@ -27,6 +27,10 @@ class StateFrame extends JFrame {
         setVisible(true);
         setBounds(300, 300, 500, 350);
 
+        StateListener newstate = new StateListener();
+
+        addWindowStateListener(newstate);
+
     }
 
 }
@@ -37,7 +41,5 @@ class StateListener implements WindowStateListener {
     public void windowStateChanged(WindowEvent e) {
         System.out.println("The window has changed it's state");
     }
-
-
 
 }
