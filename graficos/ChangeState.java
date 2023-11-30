@@ -2,7 +2,6 @@ package graficos;
 
 import java.awt.Frame;
 import java.awt.event.WindowEvent;
-import java.awt.event.WindowFocusListener;
 import java.awt.event.WindowStateListener;
 
 //import java.awt.event.*;
@@ -39,7 +38,14 @@ class StateListener implements WindowStateListener {
 
     @Override
     public void windowStateChanged(WindowEvent e) {
+
         System.out.println("The window has changed it's state");
+        //System.out.println(e.getNewState());
+
+        if(e.getNewState() == 6) {
+            System.out.println("The window it's in fullscreen");
+        }
+
     }
 
 }
