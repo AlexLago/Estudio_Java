@@ -15,6 +15,11 @@ public class ChangeState {
 
 class StateFrame extends JFrame {
 
-    
+    public StateFrame() {
+
+        setVisible(true);
+        setBounds(300, 300, 500, 350);
+
+    }
 
 }
