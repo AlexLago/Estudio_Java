@@ -42,8 +42,12 @@ class StateListener implements WindowStateListener {
         System.out.println("The window has changed it's state");
         //System.out.println(e.getNewState());
 
-        if(e.getNewState() == 6) {
+        if(e.getNewState() == Frame.MAXIMIZED_BOTH) {
             System.out.println("The window it's in fullscreen");
+        }else if(e.getNewState() == Frame.NORMAL) {
+            System.out.println("The window is normal");
+        } else if(e.getNewState() == Frame.ICONIFIED) {
+            System.out.println("The window it's in minimized");
         }
 
     }
