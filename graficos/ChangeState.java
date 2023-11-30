@@ -1,6 +1,7 @@
 package graficos;
 
-import java.awt.*;
+import java.awt.Frame;
+import java.awt.event.*;
 import javax.swing.*;
 
 public class ChangeState {
@@ -26,12 +27,8 @@ class StateFrame extends JFrame {
 
 }
 
-class StateListener implements WindowStateListener {
-
-    public void windowStateChanged(WindowEvent e) {
+class StateListener implements WindowStateListener{
 
 
 
-    }
-    
 }
