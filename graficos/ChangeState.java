@@ -7,7 +7,9 @@ public class ChangeState {
     
     public static void main(String[] args) {
 
+        StateFrame myframe = new StateFrame();
 
+        myframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
