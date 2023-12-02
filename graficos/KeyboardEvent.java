@@ -7,7 +7,9 @@ public class KeyboardEvent {
 
     public static void main(String[] args) {
         
+        FrameWithKeys myframe = new FrameWithKeys();
 
+        myframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
