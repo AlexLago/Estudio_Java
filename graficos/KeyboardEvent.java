@@ -15,6 +15,11 @@ public class KeyboardEvent {
 
 class FrameWithKeys extends JFrame {
 
-    
+    public FrameWithKeys() {
+
+        setVisible(true);
+        setBounds(700, 300, 600, 450);
+
+    }
 
 }
