@@ -25,6 +25,10 @@ class FrameWithKeys extends JFrame {
         setVisible(true);
         setBounds(700, 300, 600, 450);
 
+        KeyboardListener key = new KeyboardListener();
+
+        addKeyListener(key);
+
     }
 
 }
