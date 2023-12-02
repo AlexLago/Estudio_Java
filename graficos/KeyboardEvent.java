@@ -35,7 +35,13 @@ class KeyboardListener implements KeyListener {
     public void keyTyped(KeyEvent e) {}
 
     @Override
-    public void keyPressed(KeyEvent e) {}
+    public void keyPressed(KeyEvent e) {
+
+        int code = e.getKeyCode();
+
+        System.out.println(code);
+
+    }
 
     @Override
     public void keyReleased(KeyEvent e) {}
