@@ -36,7 +36,9 @@ class FrameWithKeys extends JFrame {
 class KeyboardListener implements KeyListener {
 
     @Override
-    public void keyTyped(KeyEvent e) {}
+    public void keyTyped(KeyEvent e) {
+        System.out.println(e.getKeyChar());
+    }
 
     @Override
     public void keyPressed(KeyEvent e) {
