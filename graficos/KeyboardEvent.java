@@ -1,6 +1,9 @@
 package graficos;
 
-import javax.swing.JFrame;
+import javax.swing.*;
+
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 public class KeyboardEvent {
     
@@ -23,5 +26,20 @@ class FrameWithKeys extends JFrame {
         setBounds(700, 300, 600, 450);
 
     }
+
+}
+
+class KeyboardListener implements KeyListener {
+
+    @Override
+    public void keyTyped(KeyEvent e) {}
+
+    @Override
+    public void keyPressed(KeyEvent e) {}
+
+    @Override
+    public void keyReleased(KeyEvent e) {}
+
+
 
 }
