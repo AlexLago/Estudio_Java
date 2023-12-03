@@ -28,6 +28,23 @@ class MouseFrame extends JFrame {
 
 class Mouse implements MouseListener {
 
+    @Override
+    public void mouseClicked(java.awt.event.MouseEvent e) {
+        System.out.println("You just clicked");
+    }
+
+    @Override
+    public void mousePressed(java.awt.event.MouseEvent e) {}
+
+    @Override
+    public void mouseReleased(java.awt.event.MouseEvent e) {}
+
+    @Override
+    public void mouseEntered(java.awt.event.MouseEvent e) {}
+
+    @Override
+    public void mouseExited(java.awt.event.MouseEvent e) {}
+
 
     
 }
