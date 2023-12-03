@@ -14,6 +14,11 @@ public class MouseEvent {
 
 class MouseFrame extends JFrame {
 
+    public MouseFrame() {
 
+        setVisible(true);
+        setBounds(700, 300, 600, 450);
+
+    }
 
 }
