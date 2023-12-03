@@ -38,7 +38,9 @@ class Mouse implements MouseListener {
     }
 
     @Override
-    public void mousePressed(java.awt.event.MouseEvent e) {}
+    public void mousePressed(java.awt.event.MouseEvent e) {
+        System.out.println("Click pressed");
+    }
 
     @Override
     public void mouseReleased(java.awt.event.MouseEvent e) {
@@ -46,10 +48,14 @@ class Mouse implements MouseListener {
     }
 
     @Override
-    public void mouseEntered(java.awt.event.MouseEvent e) {}
+    public void mouseEntered(java.awt.event.MouseEvent e) {
+        System.out.println("Entered");
+    }
 
     @Override
-    public void mouseExited(java.awt.event.MouseEvent e) {}
+    public void mouseExited(java.awt.event.MouseEvent e) {
+        System.out.println("Exited");
+    }
 
 
     
