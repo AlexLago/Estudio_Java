@@ -6,7 +6,9 @@ public class MouseEvent {
     
     public static void main(String[] args) {
         
+        MouseFrame myframe = new MouseFrame();
 
+        myframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
