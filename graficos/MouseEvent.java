@@ -24,3 +24,9 @@ class MouseFrame extends JFrame {
     }
 
 }
+
+class MouseListener implements MouseListener {
+
+
+    
+}
