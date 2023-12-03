@@ -1,6 +1,7 @@
 package graficos;
 
 import javax.swing.*;
+import java.awt.event.*;
 
 public class MouseEvent {
     
@@ -25,7 +26,7 @@ class MouseFrame extends JFrame {
 
 }
 
-class MouseListener implements MouseListener {
+class Mouse implements MouseListener {
 
 
     
