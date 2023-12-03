@@ -41,7 +41,9 @@ class Mouse implements MouseListener {
     public void mousePressed(java.awt.event.MouseEvent e) {}
 
     @Override
-    public void mouseReleased(java.awt.event.MouseEvent e) {}
+    public void mouseReleased(java.awt.event.MouseEvent e) {
+        System.out.println("You just released the mouse");
+    }
 
     @Override
     public void mouseEntered(java.awt.event.MouseEvent e) {}
