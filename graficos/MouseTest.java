@@ -27,12 +27,23 @@ class TestFrame extends JFrame {
         MouseActions event = new MouseActions();
 
         addMouseListener(event);
+        addMouseMotionListener(event);
 
     }
 
 }
 
 class MouseActions extends MouseAdapter {
+
+    @Override
+    public void mouseDragged(MouseEvent arg0) {
+        System.out.println("You're dragging");
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent arg0) {
+        System.out.println("You're moving");
+    }
 
     @Override
     public void mouseClicked(MouseEvent e) {
