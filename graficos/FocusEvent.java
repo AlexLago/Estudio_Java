@@ -35,7 +35,7 @@ class FocusPanel extends JPanel {
 
         super.paintComponent(g);
 
-        
+        setLayout(null);
 
     }
 
