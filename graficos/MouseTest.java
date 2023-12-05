@@ -46,9 +46,11 @@ class MouseActions extends MouseAdapter {
     @Override
     public void mousePressed(MouseEvent e) {
 
-        if(e.getModifiersEx() == 1024) {
+        if(e.getModifiersEx() == MouseEvent.BUTTON1_DOWN_MASK) {
             System.out.println("You used the left click");
-        } else if(e.getModifiersEx() == 4096) {
+        } else if(e.getModifiersEx() == MouseEvent.BUTTON2_DOWN_MASK) {
+            System.out.println("You used the wheel button");
+        } else if (e.getModifiersEx() == MouseEvent.BUTTON3_DOWN_MASK) {
             System.out.println("You used the right click");
         }
 
