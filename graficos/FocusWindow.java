@@ -23,8 +23,11 @@ public class FocusWindow extends JFrame implements WindowFocusListener{
         frame2.setVisible(true);
 
         frame1.setBounds(300, 100, 600, 350);
-        frame1.setBounds(1200, 100, 600, 350);
-        
+        frame2.setBounds(1200, 100, 600, 350);
+
+        frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     }
 
     @Override
