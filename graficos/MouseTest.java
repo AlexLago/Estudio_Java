@@ -15,5 +15,12 @@ public class MouseTest {
 class TestFrame extends JFrame {
 
 
+    public TestFrame() {
+
+        setVisible(true);
+        setBounds(700, 300, 600, 450);
+
+    }
+
     
 }
