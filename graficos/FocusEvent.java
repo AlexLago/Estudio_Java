@@ -6,7 +6,9 @@ public class FocusEvent {
     
     public static void main(String[] args) {
         
+        FocusFrame myframe = new FocusFrame();
 
+        myframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 
