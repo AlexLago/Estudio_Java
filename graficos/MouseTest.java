@@ -45,7 +45,13 @@ class MouseActions extends MouseAdapter {
 
     @Override
     public void mousePressed(MouseEvent e) {
-        System.out.println(e.getModifiersEx());
+
+        if(e.getModifiersEx() == 1024) {
+            System.out.println("You used the left click");
+        } else if(e.getModifiersEx() == 4096) {
+            System.out.println("You used the right click");
+        }
+
     }
 
 }
