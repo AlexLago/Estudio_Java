@@ -43,6 +43,9 @@ class FocusPanel extends JPanel {
         box1 = new JTextField();
         box2 = new JTextField();
         
+        box1.setBounds(120, 10, 150, 20);
+        box2.setBounds(120, 50, 150, 20);
+
     }
 
 }
