@@ -24,6 +24,10 @@ class ActionFrame extends JFrame {
         setTitle("Actions test");
         setBounds(600, 350, 600, 300);
 
+        ActionPanel mypanel = new ActionPanel();
+
+        add(mypanel);
+
     }
 
 }
@@ -32,8 +36,10 @@ class ActionPanel extends JPanel {
 
     @Override
     protected void paintComponent(Graphics g) {
+
         super.paintComponent(g);
-        
+
+
     }
 
 }
