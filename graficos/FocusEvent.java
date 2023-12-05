@@ -1,6 +1,7 @@
 package graficos;
 
 import javax.swing.JFrame;
+import java.awt.event.FocusListener;
 
 public class FocusEvent {
     
@@ -22,5 +23,15 @@ class FocusFrame extends JFrame {
         setBounds(300, 300, 600, 450);
 
     }
+
+}
+
+class Focus implements FocusListener {
+
+    @Override
+    public void focusGained(java.awt.event.FocusEvent e) {}
+
+    @Override
+    public void focusLost(java.awt.event.FocusEvent e) {}
 
 }
