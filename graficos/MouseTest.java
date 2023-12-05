@@ -38,7 +38,7 @@ class MouseActions extends MouseAdapter {
 
         System.out.println("You clicked in the coordinates X: " + e.getX() + " and Y: " + e.getY());
 
-        System.out.println(e.getClickCount());
+        System.out.println("Consecutive clicks in row: " + e.getClickCount());
 
     }
 
