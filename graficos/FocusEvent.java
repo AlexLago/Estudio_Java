@@ -54,6 +54,7 @@ class FocusPanel extends JPanel {
         Focus f = new Focus();
 
         box1.addFocusListener(f);
+        box2.addFocusListener(f);
 
     }
 
