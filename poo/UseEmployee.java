@@ -15,6 +15,8 @@ public class UseEmployee {
 
         ArrayList<Employee> employeeList = new ArrayList<Employee>();
 
+        employeeList.ensureCapacity(employeeList.size());
+
         employeeList.add(new Employee("Ana", 45, 2500));
         employeeList.add(new Employee("Antonio", 55, 2000));
         employeeList.add(new Employee("María", 25, 2600));
