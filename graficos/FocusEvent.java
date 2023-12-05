@@ -14,6 +14,11 @@ public class FocusEvent {
 
 class FocusFrame extends JFrame {
 
-    
+    public FocusFrame() {
+
+        setVisible(true);
+        setBounds(300, 300, 600, 450);
+
+    }
 
 }
