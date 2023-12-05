@@ -53,14 +53,19 @@ class FocusPanel extends JPanel {
 
     }
 
+    private class Focus implements FocusListener {
+
+        @Override
+        public void focusGained(java.awt.event.FocusEvent e) {
+
+        }
+
+        @Override
+        public void focusLost(java.awt.event.FocusEvent e) {
+            
+        }
+
+    }
+
 }
 
-class Focus implements FocusListener {
-
-    @Override
-    public void focusGained(java.awt.event.FocusEvent e) {}
-
-    @Override
-    public void focusLost(java.awt.event.FocusEvent e) {}
-
-}
