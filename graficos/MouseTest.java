@@ -35,7 +35,11 @@ class TestFrame extends JFrame {
 class MouseActions extends MouseAdapter {
 
     public void mouseClicked(MouseEvent e) {
+
         System.out.println("You clicked in the coordinates X: " + e.getX() + " and Y: " + e.getY());
+
+        System.out.println(e.getClickCount());
+
     }
 
 }
