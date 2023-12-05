@@ -1,6 +1,7 @@
 package graficos;
 
 import java.awt.Graphics;
+import java.awt.event.ActionEvent;
 
 import javax.swing.*;
 
@@ -53,5 +54,14 @@ class ActionPanel extends JPanel {
 
 
     }
+
+}
+
+class ActionColor extends AbstractAction {
+
+    @Override
+    public void actionPerformed(ActionEvent e) {}
+
+
 
 }
