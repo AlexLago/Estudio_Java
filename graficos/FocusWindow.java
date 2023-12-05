@@ -10,7 +10,9 @@ public class FocusWindow extends JFrame implements WindowFocusListener{
 
     public static void main(String[] args) {
         
+        FocusWindow fw = new FocusWindow();
 
+        fw.start();
 
     }
 
@@ -27,6 +29,9 @@ public class FocusWindow extends JFrame implements WindowFocusListener{
 
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        frame1.addWindowFocusListener(this);
+        frame2.addWindowFocusListener(this);
 
     }
 
