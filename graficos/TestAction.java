@@ -6,7 +6,10 @@ public class TestAction {
     
     public static void main(String[] args) {
         
+        ActionFrame myframe = new ActionFrame();
 
+        myframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        myframe.setVisible(true);
 
     }
 
