@@ -1,6 +1,7 @@
 package graficos;
 
 import javax.swing.*;
+import java.awt.event.*;
 
 public class MouseTest {
     
@@ -22,5 +23,11 @@ class TestFrame extends JFrame {
         setBounds(700, 300, 600, 450);
 
     }
+
+}
+
+class MouseActions extends MouseAdapter {
+
+
 
 }
