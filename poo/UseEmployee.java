@@ -10,7 +10,9 @@ public class UseEmployee {
         employeeList[1] = new Employee("Antonio", 55, 2000);
         employeeList[2] = new Employee("María", 25, 2600);
 
-        
+        for (Employee e : employeeList) {
+            System.out.println(e.giveData());
+        }
     }
 
 }
