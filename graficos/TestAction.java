@@ -1,6 +1,8 @@
 package graficos;
 
-import javax.swing.JFrame;
+import java.awt.Graphics;
+
+import javax.swing.*;
 
 public class TestAction {
     
@@ -22,6 +24,16 @@ class ActionFrame extends JFrame {
         setTitle("Actions test");
         setBounds(600, 350, 600, 300);
 
+    }
+
+}
+
+class ActionPanel extends JPanel {
+
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        
     }
 
 }
