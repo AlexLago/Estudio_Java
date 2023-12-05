@@ -26,6 +26,8 @@ class FocusFrame extends JFrame {
         setVisible(true);
         setBounds(300, 300, 600, 450);
 
+        add(new FocusPanel());
+
     }
 
 }
@@ -45,6 +47,9 @@ class FocusPanel extends JPanel {
         
         box1.setBounds(120, 10, 150, 20);
         box2.setBounds(120, 50, 150, 20);
+
+        add(box1);
+        add(box2);
 
     }
 
