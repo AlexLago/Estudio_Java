@@ -1,6 +1,9 @@
 package graficos;
 
 import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import java.awt.Graphics;
 import java.awt.event.FocusListener;
 
 public class FocusEvent {
@@ -21,6 +24,18 @@ class FocusFrame extends JFrame {
 
         setVisible(true);
         setBounds(300, 300, 600, 450);
+
+    }
+
+}
+
+class FocusPanel extends JPanel {
+
+    public void paintComponent(Graphics g) {
+
+        super.paintComponent(g);
+
+        
 
     }
 
