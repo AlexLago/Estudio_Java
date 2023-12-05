@@ -36,9 +36,25 @@ public class FocusWindow extends JFrame implements WindowFocusListener{
     }
 
     @Override
-    public void windowGainedFocus(WindowEvent e) {}
+    public void windowGainedFocus(WindowEvent e) {
+
+        if(e.getSource() == frame1) {
+            frame1.setTitle("Focused");
+        } else {
+            frame2.setTitle("Focused");
+        }
+
+    }
 
     @Override
-    public void windowLostFocus(WindowEvent e) {}
+    public void windowLostFocus(WindowEvent e) {
+
+        if(e.getSource() == frame1) {
+            frame1.setTitle("");
+        } else {
+            frame2.setTitle("");
+        }
+
+    }
     
 }
