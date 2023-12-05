@@ -21,6 +21,8 @@ public class UseEmployee {
         employeeList.add(new Employee("Antonio", 55, 2000));
         employeeList.add(new Employee("María", 25, 2600));
 
+        employeeList.trimToSize();
+
         System.out.println(employeeList.size());
 
         for (Employee e : employeeList) {
