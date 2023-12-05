@@ -3,11 +3,11 @@ package graficos;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-
 import java.awt.Graphics;
+import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
-public class FocusEvent {
+public class FocusTest {
     
     public static void main(String[] args) {
         
@@ -61,13 +61,30 @@ class FocusPanel extends JPanel {
     private class Focus implements FocusListener {
 
         @Override
-        public void focusGained(java.awt.event.FocusEvent e) {
+        public void focusGained(FocusEvent e) {
             System.out.println("Obtained the focus");
         }
 
         @Override
-        public void focusLost(java.awt.event.FocusEvent e) {
-            System.out.println("Lost the focus");
+        public void focusLost(FocusEvent e) {
+
+            String email = box1.getText();
+            boolean check = false;
+
+            for(int i=0; i<email.length(); i++) {
+
+                if(email.charAt(i) == '@') {
+                    check = true;
+                }
+
+            }
+
+            if(check) {
+                System.out.println("It's correct");
+            } else {
+                System.out.println("Your email doesn't contain an @");
+            }
+
         }
 
     }
