@@ -14,6 +14,11 @@ public class TestAction {
 
 class ActionFrame extends JFrame {
 
-    
+    public ActionFrame() {
+
+        setTitle("Actions test");
+        setBounds(600, 350, 600, 300);
+
+    }
 
 }
