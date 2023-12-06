@@ -1,6 +1,6 @@
 package graficos;
 
-import java.awt.Graphics;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 
 import javax.swing.*;
@@ -47,21 +47,24 @@ class ActionPanel extends JPanel {
 
     }
 
-    @Override
-    protected void paintComponent(Graphics g) {
-
-        super.paintComponent(g);
-
-
-    }
-
 }
 
 class ActionColor extends AbstractAction {
 
+    public ActionColor(String name, Icon icon, Color btnColor){
+
+        putValue(Action.NAME, name);
+        putValue(Action.SMALL_ICON, icon);
+        putValue(Action.SHORT_DESCRIPTION, "Set the background with the color " + name);
+        putValue("Background_Color", btnColor);
+
+    }
+
     @Override
-    public void actionPerformed(ActionEvent e) {}
+    public void actionPerformed(ActionEvent e) {
 
 
+
+    }
 
 }
