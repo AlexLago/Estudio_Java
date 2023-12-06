@@ -53,7 +53,13 @@ class MainPanel extends JPanel {
     private class NewListener implements ActionListener {
 
         @Override
-        public void actionPerformed(ActionEvent e) {}
+        public void actionPerformed(ActionEvent e) {
+
+            NewFrame frame = new NewFrame();
+
+            frame.setVisible(true);
+
+        }
 
     }
 
