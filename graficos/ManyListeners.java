@@ -48,6 +48,10 @@ class MainPanel extends JPanel {
         add(btnNew);
         add(btnClose);
 
+        NewListener listener = new NewListener();
+
+        btnNew.addActionListener(listener);
+
     }
 
     private class NewListener implements ActionListener {
