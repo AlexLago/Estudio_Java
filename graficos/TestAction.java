@@ -49,6 +49,13 @@ class ActionPanel extends JPanel {
         ActionColor actionBlue = new ActionColor("Blue", new ImageIcon("src/graficos/material/imagen.gif"), Color.BLUE);
         ActionColor actionRed = new ActionColor("Red", new ImageIcon("src/graficos/material/imagen.gif"), Color.RED);
 
+        //JButton btnYellow = new JButton(actionYellow);
+        //add(btnYellow);
+
+        add(new JButton(actionYellow));
+        add(new JButton(actionBlue));
+        add(new JButton(actionRed));
+
     }
 
 }
