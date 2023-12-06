@@ -71,7 +71,7 @@ class ActionPanel extends JPanel {
         @Override
         public void actionPerformed(ActionEvent e) {
 
-            Color c = (Color) getValue("Background_Color");
+            Color c = (Color) getValue("Background_Color"); //Repass this
             setBackground(c);
 
         }
