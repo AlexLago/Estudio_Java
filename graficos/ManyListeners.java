@@ -1,5 +1,8 @@
 package graficos;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -47,13 +50,25 @@ class MainPanel extends JPanel {
 
     }
 
+    private class NewListener implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {}
+
+    }
+
 }
 
 class NewFrame extends JFrame {
 
+    private static int counter;
+
     public NewFrame() {
 
-        
+        counter++;
+
+        setTitle("Window " + counter);
+        setBounds(40*counter, 40*counter, 300, 150);
 
     }
 
