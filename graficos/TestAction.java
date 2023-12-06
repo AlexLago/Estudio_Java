@@ -74,7 +74,7 @@ class ActionPanel extends JPanel {
             Color c = (Color) getValue("Background_Color"); //Repass this
             setBackground(c);
 
-            System.out.println("Name: " + getValue(Action.NAME));
+            System.out.println("Name: " + getValue(Action.NAME) + " | Description: " + getValue(Action.SHORT_DESCRIPTION));
 
         }
 
