@@ -57,25 +57,26 @@ class ActionPanel extends JPanel {
         add(new JButton(actionRed));
 
     }
+    class ActionColor extends AbstractAction {
 
-}
+        public ActionColor(String name, Icon icon, Color btnColor){
 
-class ActionColor extends AbstractAction {
+            putValue(Action.NAME, name);
+            putValue(Action.SMALL_ICON, icon);
+            putValue(Action.SHORT_DESCRIPTION, "Set the background with the color " + name);
+            putValue("Background_Color", btnColor);
 
-    public ActionColor(String name, Icon icon, Color btnColor){
+        }
 
-        putValue(Action.NAME, name);
-        putValue(Action.SMALL_ICON, icon);
-        putValue(Action.SHORT_DESCRIPTION, "Set the background with the color " + name);
-        putValue("Background_Color", btnColor);
+        @Override
+        public void actionPerformed(ActionEvent e) {
+
+            Color c = (Color) getValue("Background_Color");
+            setBackground(c);
+
+        }
 
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
-
-
-    }
-
 }
+
