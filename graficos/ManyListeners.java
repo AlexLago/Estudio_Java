@@ -15,6 +15,11 @@ public class ManyListeners {
 
 class MainFrame extends JFrame {
 
-    
+    public MainFrame() {
+
+        setTitle("Listeners Test");
+        setBounds(1300, 100, 300, 200);
+
+    }
 
 }
