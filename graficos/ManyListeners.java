@@ -22,6 +22,10 @@ class MainFrame extends JFrame {
         setTitle("Listeners Test");
         setBounds(1300, 100, 300, 200);
 
+        MainPanel panel = new MainPanel();
+
+        add(panel);
+
     }
 
 }
