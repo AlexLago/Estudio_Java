@@ -68,7 +68,7 @@ class ActionPanel extends JPanel {
 
         ActionMap action = getActionMap();
 
-        action.put("Yellow_Background", actionYellow);
+        action.put("Yellow_background", actionYellow);
         action.put("Blue_Background", actionBlue);
         action.put("Red_Background", actionRed);
 
