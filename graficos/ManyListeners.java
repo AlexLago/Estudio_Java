@@ -59,7 +59,7 @@ class MainPanel extends JPanel {
         @Override
         public void actionPerformed(ActionEvent e) {
 
-            NewFrame frame = new NewFrame();
+            NewFrame frame = new NewFrame(btnClose);
 
             frame.setVisible(true);
 
@@ -73,19 +73,25 @@ class NewFrame extends JFrame {
 
     private static int counter;
 
-    public NewFrame() {
+    public NewFrame(JButton btnClose) {
 
         counter++;
 
         setTitle("Window " + counter);
         setBounds(40*counter, 40*counter, 300, 150);
 
+        CloseAll closeListener = new CloseAll();
+
+        btnClose.addActionListener(closeListener);
+
     }
 
     private class CloseAll implements ActionListener {
 
         @Override
-        public void actionPerformed(ActionEvent e) {}
+        public void actionPerformed(ActionEvent e) {
+            dispose();
+        }
 
     }
 
