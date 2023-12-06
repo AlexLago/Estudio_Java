@@ -51,6 +51,10 @@ class MainPanel extends JPanel {
 
 class NewFrame extends JFrame {
 
+    public NewFrame() {
 
-    
+        
+
+    }
+
 }
