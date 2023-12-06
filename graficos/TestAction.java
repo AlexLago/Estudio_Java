@@ -37,13 +37,13 @@ class ActionPanel extends JPanel {
 
     public ActionPanel() {
 
-        JButton yellowButton = new JButton("Yellow");
+        /*JButton yellowButton = new JButton("Yellow");
         JButton blueButton = new JButton("Blue");
         JButton redButton = new JButton("Red");
 
         add(yellowButton);
         add(blueButton);
-        add(redButton);
+        add(redButton);*/
 
     }
 
