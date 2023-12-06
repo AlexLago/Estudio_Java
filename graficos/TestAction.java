@@ -45,9 +45,9 @@ class ActionPanel extends JPanel {
         add(blueButton);
         add(redButton);*/
 
-        ActionColor actionYellow = new ActionColor("Yellow", new ImageIcon("src/graficos/material/imagen.gif"), Color.YELLOW);
-        ActionColor actionBlue = new ActionColor("Blue", new ImageIcon("src/graficos/material/imagen.gif"), Color.BLUE);
-        ActionColor actionRed = new ActionColor("Red", new ImageIcon("src/graficos/material/imagen.gif"), Color.RED);
+        ActionColor actionYellow = new ActionColor("Yellow", new ImageIcon("graficos/material/imagen.gif"), Color.YELLOW);
+        ActionColor actionBlue = new ActionColor("Blue", new ImageIcon("graficos/material/imagen.gif"), Color.BLUE);
+        ActionColor actionRed = new ActionColor("Red", new ImageIcon("graficos/material/imagen.gif"), Color.RED);
 
         //JButton btnYellow = new JButton(actionYellow);
         //add(btnYellow);
