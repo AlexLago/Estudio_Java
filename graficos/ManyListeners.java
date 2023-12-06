@@ -35,11 +35,15 @@ class MainFrame extends JFrame {
 
 class MainPanel extends JPanel {
 
+    JButton btnClose;
+
     public MainPanel() {
 
         JButton btnNew = new JButton("New");
+        btnClose = new JButton("Close");
 
         add(btnNew);
+        add(btnClose);
 
     }
 
