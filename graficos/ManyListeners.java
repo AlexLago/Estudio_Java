@@ -48,3 +48,9 @@ class MainPanel extends JPanel {
     }
 
 }
+
+class NewFrame extends JFrame {
+
+
+    
+}
