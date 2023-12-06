@@ -1,5 +1,6 @@
 package graficos;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -29,7 +30,9 @@ class MainPanel extends JPanel {
 
     public MainPanel() {
 
-        
+        JButton btnNew = new JButton("New");
+
+        add(btnNew);
 
     }
 
