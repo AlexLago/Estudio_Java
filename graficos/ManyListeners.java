@@ -82,4 +82,11 @@ class NewFrame extends JFrame {
 
     }
 
+    private class CloseAll implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {}
+
+    }
+
 }
