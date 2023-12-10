@@ -12,6 +12,12 @@ public class Errors {
         my_array[3] = 92;
         my_array[4] = 71;
 
+        for(int i=0; i<5; i++) {
+
+            System.out.println("Position " + i + " = " + my_array[i]);
+
+        }
+
     }
 
 }
