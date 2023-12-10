@@ -1,5 +1,7 @@
 package exceptions;
 
+import javax.swing.JOptionPane;
+
 public class Errors {
     
     public static void main(String[] args) {
@@ -13,10 +15,13 @@ public class Errors {
         my_array[4] = 71;
 
         for(int i=0; i<5; i++) {
-
             System.out.println("Position " + i + " = " + my_array[i]);
-
         }
+
+        String name = JOptionPane.showInputDialog("Introduce your name");
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Introduce your age"));
+
+        System.out.println("Hello " + name + ". You're " + age + " years old. " + " The program ended its execution");
 
     }
 
