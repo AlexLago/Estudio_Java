@@ -14,6 +14,13 @@ public class Errors {
         my_array[3] = 92;
         my_array[4] = 71;
 
+        try {
+            my_array[5] = 69;
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
+
+
         for(int i=0; i<5; i++) {
             System.out.println("Position " + i + " = " + my_array[i]);
         }
