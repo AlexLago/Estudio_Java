@@ -4,18 +4,25 @@ import java.util.*;
 import javax.swing.*;
 
 public class AreasPeso {
-    
+
     static int figura;
 
     public static void main(String[] args) {
-
-        
         
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Elige una opción \n1: Cuadrado \n2: Rectángulo \n3: Triángulo \n4: Círculo");
 
-        figura = entrada.nextInt();
+        
+        try {
+
+            figura = entrada.nextInt();
+
+            entrada.close();
+
+        } catch (Exception e) {
+            System.out.println("Ha ocurrido un error");
+        }
 
         switch (figura) {
 
