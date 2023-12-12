@@ -12,14 +12,14 @@ public class CompruebaMail {
 
         try {
             examinaEmail(mail);
-        } catch (EOFException e) {
+        } catch (LongitudMailErronea e) {
             System.out.println("La dirección email no es correcta");
         }
         
 
     }
 
-    static void examinaEmail(String mail) throws EOFException {
+    static void examinaEmail(String mail) throws LongitudMailErronea {
 
         int arroba = 0;
         boolean punto = false;
@@ -30,7 +30,7 @@ public class CompruebaMail {
 
             throw excepcion;*/
 
-            //throw new EOFException();
+            throw new LongitudMailErronea();
 
         } else {
 
