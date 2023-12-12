@@ -6,7 +6,14 @@ public class VariasExcepciones {
     
     public static void main(String[] args) {
         
-        division();
+        
+        try {
+            division();
+        } catch (ArithmeticException e) {
+            System.out.println("Estás dividiendo por 0");
+        } catch (NumberFormatException e) {
+            System.out.println("No has introducido un número entero");
+        }
 
     }
 
