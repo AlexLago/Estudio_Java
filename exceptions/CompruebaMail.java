@@ -1,5 +1,7 @@
 package exceptions;
 
+import java.io.EOFException;
+
 import javax.swing.JOptionPane;
 
 public class CompruebaMail {
@@ -8,11 +10,16 @@ public class CompruebaMail {
         
         String mail = JOptionPane.showInputDialog("Introduce email");
 
-        examinaEmail(mail);
+        try {
+            examinaEmail(mail);
+        } catch (EOFException e) {
+            System.out.println("La dirección email no es correcta");
+        }
+        
 
     }
 
-    static void examinaEmail(String mail) throws ArrayIndexOutOfBoundsException {
+    static void examinaEmail(String mail) throws EOFException {
 
         int arroba = 0;
         boolean punto = false;
@@ -23,7 +30,7 @@ public class CompruebaMail {
 
             throw excepcion;*/
 
-            throw new ArrayIndexOutOfBoundsException();
+            throw new EOFException();
 
         } else {
 
