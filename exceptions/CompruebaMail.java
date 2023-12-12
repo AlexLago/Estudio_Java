@@ -12,7 +12,7 @@ public class CompruebaMail {
 
     }
 
-    static void examinaEmail(String mail) {
+    static void examinaEmail(String mail) throws ArrayIndexOutOfBoundsException {
 
         int arroba = 0;
         boolean punto = false;
