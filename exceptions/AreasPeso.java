@@ -1,14 +1,15 @@
 package exceptions;
 
-import java.util.Scanner;
-
-import javax.swing.JOptionPane;
+import java.util.*;
+import javax.swing.*;
 
 public class AreasPeso {
     
+    static int figura;
+
     public static void main(String[] args) {
 
-        static int figura;
+        
         
         Scanner entrada = new Scanner(System.in);
 
