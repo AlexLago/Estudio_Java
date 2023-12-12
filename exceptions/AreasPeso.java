@@ -15,13 +15,11 @@ public class AreasPeso {
 
         
         try {
-
             figura = entrada.nextInt();
-
-            entrada.close();
-
         } catch (Exception e) {
             System.out.println("Ha ocurrido un error");
+        } finally {
+            entrada.close();
         }
 
         switch (figura) {
