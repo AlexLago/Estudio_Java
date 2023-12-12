@@ -30,19 +30,24 @@ public class EntradaDatos {
 
     static void pedirDatos() throws InputMismatchException {
 
-        Scanner entrada = new Scanner(System.in);
+        try {
 
-        System.out.println("Introduce tu nombre, por favor");
+            Scanner entrada = new Scanner(System.in);
 
-        String nombre_usuario = entrada.nextLine();
+            System.out.println("Introduce tu nombre, por favor");
 
-        System.out.println("Introduce edad, por favor");
+            String nombre_usuario = entrada.nextLine();
 
-        int edad = entrada.nextInt();
+            System.out.println("Introduce edad, por favor");
 
-        System.out.println("Hola " + nombre_usuario + " . El año que viene tendras " + (edad+1) + " años");
+            int edad = entrada.nextInt();
 
-        entrada.close();
+            System.out.println("Hola " + nombre_usuario + " . El año que viene tendras " + (edad+1) + " años");
+
+            entrada.close();
+        } catch(InputMismatchException e) {
+            System.out.println("Que demonios has introducido en la edad");
+        }
 
         System.out.println("Hemos terminado");
 
