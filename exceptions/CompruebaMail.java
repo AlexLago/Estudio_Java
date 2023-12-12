@@ -60,6 +60,10 @@ public class CompruebaMail {
 
 class LongitudMailErronea extends Exception {
 
-    
+    public LongitudMailErronea() {}
+
+    public LongitudMailErronea(String msj_error) {
+        super(msj_error);
+    }
 
 }
