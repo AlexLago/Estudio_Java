@@ -19,9 +19,11 @@ public class CompruebaMail {
 
         if(mail.length() <= 3) {
 
-            ArrayIndexOutOfBoundsException excepcion = new ArrayIndexOutOfBoundsException();
+            /*ArrayIndexOutOfBoundsException excepcion = new ArrayIndexOutOfBoundsException();
 
-            throw excepcion;
+            throw excepcion;*/
+
+            throw new ArrayIndexOutOfBoundsException();
 
         } else {
 
