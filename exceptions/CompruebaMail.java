@@ -1,7 +1,5 @@
 package exceptions;
 
-import java.io.EOFException;
-
 import javax.swing.JOptionPane;
 
 public class CompruebaMail {
