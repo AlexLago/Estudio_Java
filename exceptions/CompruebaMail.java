@@ -45,6 +45,13 @@ public class CompruebaMail {
                 }
 
             }
+
+            if(arroba == 1 && punto == true) {
+                System.out.println("Es correcto");
+            } else {
+                System.out.println("No es correcto");
+            }
+
         }
 
     }
