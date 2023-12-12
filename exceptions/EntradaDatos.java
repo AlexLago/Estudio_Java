@@ -14,6 +14,17 @@ public class EntradaDatos {
 
         int decision = entrada.nextInt();
 
+        if(decision == 1) {
+
+        } else {
+
+            System.out.println("Adios");
+            System.exit(0);
+
+        }
+
+        entrada.close();
+
     }
 
 }
