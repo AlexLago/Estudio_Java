@@ -1,5 +1,6 @@
 package exceptions;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class EntradaDatos {
@@ -27,7 +28,7 @@ public class EntradaDatos {
 
     }
 
-    static void pedirDatos() {
+    static void pedirDatos() throws InputMismatchException {
 
         Scanner entrada = new Scanner(System.in);
 
