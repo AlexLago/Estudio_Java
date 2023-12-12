@@ -8,7 +8,7 @@ public class CompruebaMail {
         
         String mail = JOptionPane.showInputDialog("Introduce email");
 
-
+        examinaEmail(mail);
 
     }
 
