@@ -17,6 +17,12 @@ public class EntradaDatos {
 
         if(decision == 1) {
 
+            try {
+                pedirDatos();
+            } catch (InputMismatchException e) {
+                System.out.println("Que demonios has introducido en la edad");
+            }
+
         } else {
 
             System.out.println("Adios");
