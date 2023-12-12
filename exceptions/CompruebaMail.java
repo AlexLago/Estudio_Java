@@ -10,8 +10,12 @@ public class CompruebaMail {
 
         try {
             examinaEmail(mail);
-        } catch (LongitudMailErronea e) {
+        } catch (Exception e) {
+
             System.out.println("La dirección email no es correcta");
+
+            e.printStackTrace();
+
         }
         
 
