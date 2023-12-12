@@ -12,7 +12,11 @@ public class VariasExcepciones {
         } catch (ArithmeticException e) {
             System.out.println("Estás dividiendo por 0");
         } catch (NumberFormatException e) {
+
             System.out.println("No has introducido un número entero");
+            //System.out.println(e.getMessage());
+            System.out.println("Se ha generado un error de este tipo: " + e.getClass().getName());
+
         }
 
     }
