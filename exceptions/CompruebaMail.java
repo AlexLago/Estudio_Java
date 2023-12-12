@@ -30,7 +30,7 @@ public class CompruebaMail {
 
             throw excepcion;*/
 
-            throw new EOFException();
+            //throw new EOFException();
 
         } else {
 
@@ -55,5 +55,11 @@ public class CompruebaMail {
         }
 
     }
+
+}
+
+class LongitudMailErronea extends Exception {
+
+    
 
 }
