@@ -8,7 +8,26 @@ public class CompruebaMail {
         
         String mail = JOptionPane.showInputDialog("Introduce email");
 
-        
+
+
+    }
+
+    static void examinaEmail(String mail) {
+
+        int arroba = 0;
+        boolean punto = false;
+
+        for( int i=0; i<mail.length(); i++) {
+
+            if(mail.charAt(i) == '@') {
+                arroba++;
+            }
+
+            if(mail.charAt(i) == '.') {
+                punto = true;
+            }
+
+        }
 
     }
 
