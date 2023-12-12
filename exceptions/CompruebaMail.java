@@ -30,7 +30,7 @@ public class CompruebaMail {
 
             throw excepcion;*/
 
-            throw new LongitudMailErronea();
+            throw new LongitudMailErronea("El mail es demasiado corto");
 
         } else {
 
