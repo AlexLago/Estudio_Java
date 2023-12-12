@@ -17,16 +17,25 @@ public class CompruebaMail {
         int arroba = 0;
         boolean punto = false;
 
-        for( int i=0; i<mail.length(); i++) {
+        if(mail.length() <= 3) {
 
-            if(mail.charAt(i) == '@') {
-                arroba++;
+            ArrayIndexOutOfBoundsException excepcion = new ArrayIndexOutOfBoundsException();
+
+            throw excepcion;
+
+        } else {
+
+            for( int i=0; i<mail.length(); i++) {
+
+                if(mail.charAt(i) == '@') {
+                    arroba++;
+                }
+
+                if(mail.charAt(i) == '.') {
+                    punto = true;
+                }
+
             }
-
-            if(mail.charAt(i) == '.') {
-                punto = true;
-            }
-
         }
 
     }
