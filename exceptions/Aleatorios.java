@@ -13,6 +13,10 @@ public class Aleatorios {
             random_num[i] = (int) Math.random()*100;
         }
 
+        for (int elem : random_num) {
+            System.out.println(elem);
+        }
+
     }
 
 }
