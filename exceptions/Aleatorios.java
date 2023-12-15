@@ -10,7 +10,7 @@ public class Aleatorios {
         int random_num[] = new int[elementos];
         
         for(int i=0; i<random_num.length; i++) {
-            random_num[i] = (int) Math.random()*100;
+            random_num[i] = (int) (Math.random()*100);
         }
 
         for (int elem : random_num) {
