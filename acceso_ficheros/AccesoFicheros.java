@@ -35,6 +35,8 @@ class LeerFichero {
 
             }
 
+            entrada.close();
+
         } catch (FileNotFoundException e) {
             System.out.println("No se ha encontrado el archivo.");
         } catch(IOException e) {
