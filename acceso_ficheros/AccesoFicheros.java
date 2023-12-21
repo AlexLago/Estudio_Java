@@ -29,7 +29,7 @@ class LeerFichero {
                 
                 c = entrada .read();
 
-                char letra = (char) c;
+                char letra = (char) c; // Repasar en el futuro comas, ñ y otras letras especiales
 
                 System.out.print(letra);
 
