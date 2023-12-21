@@ -29,7 +29,9 @@ class LeerFichero {
                 
                 c = entrada .read();
 
-                System.out.println(c);
+                char letra = (char) c;
+
+                System.out.println(letra);
 
             }
 
