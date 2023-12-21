@@ -22,7 +22,7 @@ class LeerFichero {
 
         try {
 
-            FileReader entrada = new FileReader("src/acceso_ficheros/ejemplo.txt");
+            FileReader entrada = new FileReader("acceso_ficheros\\ejemplo.txt");
             int c = entrada.read();
 
             while (c != -1) {
