@@ -4,8 +4,14 @@ public class AccesoFicheros {
     
     public static void main(String[] args) {
         
-        
+
 
     }
+
+}
+
+class LeerFichero {
+
+    
 
 }
