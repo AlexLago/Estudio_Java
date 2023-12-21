@@ -1,0 +1,19 @@
+-- ¡Snake, ten cuidado! En esa zona hay minas Claymore ¡
+
+    Usa un Detector de Minas!
+
+-- ¿Quien eres?
+
+-- Llámame "Garganta Profunda".
+
+-- ¿Garganta Profunda? ¿El tipo del escándalo Watergate?
+
+-- Olvídate de eso ahora.
+
+-- No usas transmisión a ráfagas ¿Estás por aquí cerca?
+
+-- Mira. Hay un tanque delante de tu posición preparandote una emboscada.
+
+-- ¿Pero, quién eres tú?
+
+-- Un admirador tuyo.
