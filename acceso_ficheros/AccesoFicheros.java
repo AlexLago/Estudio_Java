@@ -31,7 +31,7 @@ class LeerFichero {
 
                 char letra = (char) c;
 
-                System.out.println(letra);
+                System.out.print(letra);
 
             }
 
