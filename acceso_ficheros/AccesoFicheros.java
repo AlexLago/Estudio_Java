@@ -45,6 +45,7 @@ class LeerFichero {
 
                 line = mybuffer.readLine();
 
+                if(line != null)
                 System.out.println(line);
 
             }
