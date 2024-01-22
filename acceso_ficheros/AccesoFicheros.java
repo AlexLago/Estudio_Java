@@ -1,5 +1,6 @@
 package acceso_ficheros;
 
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -28,6 +29,9 @@ class LeerFichero {
         try {
 
             FileReader entrada = new FileReader("acceso_ficheros\\ejemplo.txt");
+
+            BufferedReader mybuffer = new BufferedReader(entrada);
+
             int c = entrada.read(); // Almacena el código al primer carácter que se encuentra al fichero
 
             while (c != -1) { //-1 corresponde al final del documento
