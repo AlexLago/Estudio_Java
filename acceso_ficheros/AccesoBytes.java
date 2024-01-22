@@ -22,7 +22,7 @@ public class AccesoBytes {
                 int byteInput = readFile.read();
 
                 if(byteInput != -1)
-                inputData[byteCounter] = byteInput;
+                inputData[byteCounter] = byteInput; // Recoger el byte e introducirlo en la matriz si no es el final(-1)
                 
                 else
                 end = true;
