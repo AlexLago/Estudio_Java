@@ -32,7 +32,7 @@ class LeerFichero {
 
             BufferedReader mybuffer = new BufferedReader(entrada);
 
-            int c = entrada.read(); // Almacena el código al primer carácter que se encuentra al fichero
+            //int c = entrada.read(); // Almacena el código al primer carácter que se encuentra al fichero
 
             while (c != -1) { //-1 corresponde al final del documento
                 
