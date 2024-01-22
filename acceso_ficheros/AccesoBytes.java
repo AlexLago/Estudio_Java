@@ -33,17 +33,36 @@ public class AccesoBytes {
 
             }
 
+            
             readFile.close();
 
-        } catch (IOException e) {}
+        } catch (IOException e) {
+            System.out.println("Error. File not found");
+        }
 
         System.out.println(byteCounter);
+        
+        createFile(inputData);
 
     }
 
-    static void createFile(int data_newFile) {
+    static void createFile(int data_newFile[]) {
 
-        
+        try {
+            
+            FileOutputStream newFile = new FileOutputStream("acceso_ficheros//willowTreeCopy.jpg");
+
+            for(int i=0; i<data_newFile.length; i++) {
+
+                newFile.write(data_newFile[i]);
+
+            }
+
+            newFile.close();
+
+        } catch (IOException e) {
+            System.out.println("Error creating file.");
+        }
 
     }
 
