@@ -10,9 +10,22 @@ public class AccesoBytes {
             
             FileInputStream readFile = new FileInputStream("acceso_ficheros//willowTree.jpg");
 
-        } catch (IOException e) {
-           
-        }
+            boolean end = false;
+
+            while(!end){
+
+                int byteInput = readFile.read();
+                
+                if(byteInput == -1)
+                end = true;
+
+                System.out.print(byteInput);
+
+            }
+
+            readFile.close();
+
+        } catch (IOException e) {}
 
     }
 
