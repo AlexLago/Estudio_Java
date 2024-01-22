@@ -8,6 +8,8 @@ public class AccesoBytes {
 
         int byteCounter = 0;
 
+        int inputData[] = new int[45268];
+
         try {
             
             FileInputStream readFile = new FileInputStream("acceso_ficheros//willowTree.jpg");
@@ -18,11 +20,14 @@ public class AccesoBytes {
             while(!end){
 
                 int byteInput = readFile.read();
+
+                if(byteInput != -1)
+                inputData[byteCounter] = byteInput;
                 
-                if(byteInput == -1)
+                else
                 end = true;
 
-                System.out.println(byteInput);
+                System.out.println(inputData[byteCounter]);
 
                 byteCounter++;
 
