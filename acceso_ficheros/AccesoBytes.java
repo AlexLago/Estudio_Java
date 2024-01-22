@@ -5,12 +5,15 @@ import java.io.*;
 public class AccesoBytes {
     
     public static void main(String[] args) {
-        
+
+        int byteCounter = 0;
+
         try {
             
             FileInputStream readFile = new FileInputStream("acceso_ficheros//willowTree.jpg");
 
             boolean end = false;
+            
 
             while(!end){
 
@@ -21,11 +24,15 @@ public class AccesoBytes {
 
                 System.out.print(byteInput);
 
+                byteCounter++;
+
             }
 
             readFile.close();
 
         } catch (IOException e) {}
+
+        System.out.println(byteCounter);
 
     }
 
