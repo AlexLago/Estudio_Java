@@ -34,13 +34,18 @@ class LeerFichero {
 
             //int c = entrada.read(); // Almacena el código al primer carácter que se encuentra al fichero
 
-            while (c != -1) { //-1 corresponde al final del documento
+            String line = "";
+
+            //while (c != -1) { //-1 corresponde al final del documento
+            while (line != null) {
                 
-                c = entrada .read();
+                /*c = entrada .read();
 
-                char letra = (char) c; // Repasar en el futuro comas, ñ y otras letras especiales
+                char letra = (char) c; // Repasar en el futuro comas, ñ y otras letras especiales*/
 
-                System.out.print(letra);
+                line = mybuffer.readLine();
+
+                System.out.println(line);
 
             }
 
