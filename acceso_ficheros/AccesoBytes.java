@@ -22,7 +22,7 @@ public class AccesoBytes {
                 if(byteInput == -1)
                 end = true;
 
-                System.out.print(byteInput);
+                System.out.println(byteInput);
 
                 byteCounter++;
 
