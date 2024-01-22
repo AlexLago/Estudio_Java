@@ -41,4 +41,10 @@ public class AccesoBytes {
 
     }
 
+    static void createFile(int data_newFile) {
+
+        
+
+    }
+
 }
