@@ -17,11 +17,20 @@ public class Serializacion {
         personal[1] = new Empleado("Ruben", 4, 2008, 3, 15);
         personal[2] = new Empleado("Lucas", 18000, 2012, 9, 2);
 
+        try {
+            
+            ObjectOutputStream escribiendo_fichero = new ObjectOutputStream(new FileOutputStream("acceso_ficheros\\empleado.dat")); // Le damos al objeto una dirección donde se guardará el resultado
+
+            escribiendo_fichero.writeObject(personal);  // Usamos el flujo de datos para transferir el array "personal"
+            escribiendo_fichero.close();
+
+        } catch (Exception e) {}
+
     }
 
 }
 
-class Empleado {
+class Empleado implements Serializable {
 
     private String nombre;
     private double sueldo;
