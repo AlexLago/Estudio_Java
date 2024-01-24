@@ -87,6 +87,8 @@ class Empleado implements Serializable {
 
 class Administrador extends Empleado {
 
+    private static final long SerialVersionUID = 1L;
+
     private int incentivo;
 
     public Administrador(String nombre, double sueldo, int ano, int mes, int dia) {
