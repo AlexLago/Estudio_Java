@@ -5,6 +5,7 @@ import java.io.*;
 
 public class Serializacion {
     
+    Administrador jefe = new Administrador("Alejandro", 80000, 2024, 1, 24);
 
 
 }
@@ -64,6 +65,7 @@ class Administrador extends Empleado {
         
     }
 
+    @Override
     public double getSueldo() {
 
         double sueldoBase = super.getSueldo();
@@ -75,6 +77,7 @@ class Administrador extends Empleado {
             this.incentivo = incentivo;
     }
 
+    @Override
     public String toString() {
         return super.toString() + " Incentivo = " + incentivo;
     }
