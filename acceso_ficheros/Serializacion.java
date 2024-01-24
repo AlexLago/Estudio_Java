@@ -47,7 +47,6 @@ class Empleado implements Serializable {
     private String nombre;
     private double sueldo;
     private Date fechaContrato;
-    private int mes, ano, dia;
 
     public Empleado(String nombre, double sueldo, int ano, int mes, int dia) {
 
