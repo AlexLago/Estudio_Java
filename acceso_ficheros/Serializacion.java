@@ -5,8 +5,19 @@ import java.io.*;
 
 public class Serializacion {
     
-    Administrador jefe = new Administrador("Alejandro", 80000, 2024, 1, 24);
+    public static void main(String[] args) {
+        
+        Administrador jefe = new Administrador("Alejandro", 80000, 2024, 1, 24);
 
+        jefe.setIncentivo(5000);
+
+        Empleado[] personal = new Empleado[3];
+
+        personal[0] = jefe;
+        personal[1] = new Empleado("Ruben", 4, 2008, 3, 15);
+        personal[2] = new Empleado("Lucas", 18000, 2012, 9, 2);
+
+    }
 
 }
 
