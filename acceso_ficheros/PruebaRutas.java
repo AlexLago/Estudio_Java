@@ -9,6 +9,7 @@ public class PruebaRutas {
         File archivo = new File("ejemplo_archivo");
         
         System.out.println(archivo.getAbsolutePath());
+        System.out.println(archivo.exists());
 
     }
 
