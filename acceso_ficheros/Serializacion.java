@@ -42,6 +42,8 @@ public class Serializacion {
 
 class Empleado implements Serializable {
 
+    private static final long SerialVersionUID = 1L;
+
     private String nombre;
     private double sueldo;
     private Date fechaContrato;
