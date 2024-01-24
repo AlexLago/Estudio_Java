@@ -51,3 +51,9 @@ class Empleado {
     }
 
 }
+
+class Administrador extends Empleado {
+
+    
+
+}
