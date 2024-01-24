@@ -24,6 +24,12 @@ public class Serializacion {
             escribiendo_fichero.writeObject(personal);  // Usamos el flujo de datos para transferir el array "personal"
             escribiendo_fichero.close();
 
+            ObjectInputStream leyendo_fichero = new ObjectInputStream(new FileInputStream("acceso_ficheros\\empleado.dat"));
+
+            Empleado[] personal_recuperado = (Empleado[]) leyendo_fichero.readObject();
+
+            leyendo_fichero.close();
+
         } catch (Exception e) {}
 
     }
