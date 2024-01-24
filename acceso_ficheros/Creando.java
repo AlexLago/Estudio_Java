@@ -18,7 +18,7 @@ public class Creando {
             e.printStackTrace();
         }
 
-        Escribiendo accede_es = new Escribiendo();
+        Crear accede_es = new Crear();
 
         accede_es.escribir(archivo_destino);
         
@@ -26,7 +26,7 @@ public class Creando {
 
 }
 
-class Escribiendo {
+class Crear {
 
     public void escribir(String ruta) {
         
