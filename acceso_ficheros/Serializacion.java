@@ -5,4 +5,10 @@ import java.io.*;
 
 public class Serializacion {
     
+
+
+}
+
+class Empleado {
+
 }
