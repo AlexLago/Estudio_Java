@@ -30,6 +30,10 @@ public class Serializacion {
 
             leyendo_fichero.close();
 
+            for (Empleado empleado : personal_recuperado) {
+                System.out.println(empleado);
+            }
+
         } catch (Exception e) {}
 
     }
