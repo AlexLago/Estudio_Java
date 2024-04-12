@@ -1,6 +1,7 @@
 package poo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class UseEmployee {
     
@@ -15,7 +16,7 @@ public class UseEmployee {
 
         ArrayList<Employee> employeeList = new ArrayList<Employee>();
 
-        employeeList.ensureCapacity(employeeList.size());
+        //employeeList.ensureCapacity(employeeList.size());
 
         employeeList.add(new Employee("Ana", 45, 2500));
         employeeList.add(new Employee("Antonio", 55, 2000));
@@ -24,9 +25,15 @@ public class UseEmployee {
         employeeList.set(0, new Employee("Carlos", 29, 2300));
         System.out.println(employeeList.get(2).giveData());
 
-        employeeList.trimToSize();
+        //employeeList.trimToSize();
 
         System.out.println(employeeList.size());
+
+        Iterator <Employee> myIterador = employeeList.iterator();
+
+        while (myIterador.hasNext()) {
+            System.out.println(myIterador.next().giveData());
+        }
 
         for (Employee e : employeeList) {
             System.out.println(e.giveData());
